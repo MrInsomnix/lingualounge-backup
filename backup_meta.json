@@ -1,0 +1,291 @@
+{
+  "guildId": "793744179066699787",
+  "guildName": "LinguaLounge",
+  "window": "08.2025 -> 08.2025",
+  "createdAt": "2026-05-28T19:44:15.037Z",
+  "viewer": "V2 chunked offline viewer",
+  "filtersPath": "/home/container/data/html_backup_channels.json",
+  "channels": [
+    {
+      "id": "1352145367013134387",
+      "name": "getting-started",
+      "parentId": null,
+      "messages": 0,
+      "chunks": 0
+    },
+    {
+      "id": "1410887257635688528",
+      "name": "rules",
+      "parentId": null,
+      "messages": 1,
+      "chunks": 1
+    },
+    {
+      "id": "1279821768785137686",
+      "name": "announcements",
+      "parentId": "1292118104335323156",
+      "messages": 0,
+      "chunks": 0
+    },
+    {
+      "id": "818023712019316777",
+      "name": "welcome",
+      "parentId": "793744179519160360",
+      "messages": 271,
+      "chunks": 3
+    },
+    {
+      "id": "1232747328608145439",
+      "name": "introduce-yourself",
+      "parentId": "793744179519160360",
+      "messages": 13,
+      "chunks": 1
+    },
+    {
+      "id": "818023867372011551",
+      "name": "general",
+      "parentId": "793744179519160360",
+      "messages": 1119,
+      "chunks": 12
+    },
+    {
+      "id": "1379745979737309338",
+      "name": "media",
+      "parentId": "793744179519160360",
+      "messages": 43,
+      "chunks": 1
+    },
+    {
+      "id": "1304318856663273502",
+      "name": "meme",
+      "parentId": "793744179519160360",
+      "messages": 29,
+      "chunks": 1
+    },
+    {
+      "id": "1233064915703693312",
+      "name": "quiz-bot",
+      "parentId": "793744179519160360",
+      "messages": 16,
+      "chunks": 1
+    },
+    {
+      "id": "1225063814962090136",
+      "name": "bots-bump",
+      "parentId": "793744179519160360",
+      "messages": 923,
+      "chunks": 10
+    },
+    {
+      "id": "818026077116825620",
+      "name": "resources",
+      "parentId": "793744179519160360",
+      "messages": 1,
+      "chunks": 1
+    },
+    {
+      "id": "1233064967109087292",
+      "name": "other-languages",
+      "parentId": "793744179519160360",
+      "messages": 31,
+      "chunks": 1
+    },
+    {
+      "id": "1354835716647026748",
+      "name": "report",
+      "parentId": "793744179519160360",
+      "messages": 0,
+      "chunks": 0
+    },
+    {
+      "id": "1483470354008506378",
+      "name": "𝗦𝘁𝗮𝗳𝗳-𝗔𝗽𝗽𝗹𝘆",
+      "parentId": "793744179519160360",
+      "messages": 0,
+      "chunks": 0
+    },
+    {
+      "id": "1445427458093482165",
+      "name": "german-resources",
+      "parentId": "1286618460272594944",
+      "messages": 0,
+      "chunks": 0
+    },
+    {
+      "id": "1225363050207514675",
+      "name": "german-chat",
+      "parentId": "1286618460272594944",
+      "messages": 616,
+      "chunks": 7
+    },
+    {
+      "id": "1444004978674110646",
+      "name": "french-resources",
+      "parentId": "1286621424706129972",
+      "messages": 0,
+      "chunks": 0
+    },
+    {
+      "id": "1225362787581296640",
+      "name": "french-chat",
+      "parentId": "1286621424706129972",
+      "messages": 104,
+      "chunks": 2
+    },
+    {
+      "id": "1444005138820763658",
+      "name": "russian-resources",
+      "parentId": "1303664278116765706",
+      "messages": 0,
+      "chunks": 0
+    },
+    {
+      "id": "1303664003444379649",
+      "name": "russian-chat",
+      "parentId": "1303664278116765706",
+      "messages": 123,
+      "chunks": 2
+    },
+    {
+      "id": "1504477047047716927",
+      "name": "spanish-resources",
+      "parentId": "1504476845742100622",
+      "messages": 0,
+      "chunks": 0
+    },
+    {
+      "id": "1504477136608694302",
+      "name": "spanish-chat",
+      "parentId": "1504476845742100622",
+      "messages": 0,
+      "chunks": 0
+    },
+    {
+      "id": "1505506765377241118",
+      "name": "ukrainian-resources",
+      "parentId": "1505505610672898180",
+      "messages": 0,
+      "chunks": 0
+    },
+    {
+      "id": "1505506844184018995",
+      "name": "ukrainian-chat",
+      "parentId": "1505505610672898180",
+      "messages": 0,
+      "chunks": 0
+    },
+    {
+      "id": "1505507982329254018",
+      "name": "italian-resources",
+      "parentId": "1505507890180653086",
+      "messages": 0,
+      "chunks": 0
+    },
+    {
+      "id": "1505508025652350977",
+      "name": "italian-chat",
+      "parentId": "1505507890180653086",
+      "messages": 0,
+      "chunks": 0
+    },
+    {
+      "id": "1505508441203146923",
+      "name": "polish-resources",
+      "parentId": "1505508374718976000",
+      "messages": 0,
+      "chunks": 0
+    },
+    {
+      "id": "1505508475936051210",
+      "name": "polish-chat",
+      "parentId": "1505508374718976000",
+      "messages": 0,
+      "chunks": 0
+    },
+    {
+      "id": "1279389343542149141",
+      "name": "music-controller",
+      "parentId": "793744179519160361",
+      "messages": 0,
+      "chunks": 0
+    },
+    {
+      "id": "1280895890780979231",
+      "name": "artworks",
+      "parentId": "1286636835002646629",
+      "messages": 8,
+      "chunks": 1
+    },
+    {
+      "id": "838440273712906240",
+      "name": "𝕤𝕠𝕔𝕣𝕒𝕥𝕦𝕤-𝕘𝕒𝕝𝕝𝕖𝕣𝕪",
+      "parentId": "1286636835002646629",
+      "messages": 0,
+      "chunks": 0
+    },
+    {
+      "id": "819315298946514975",
+      "name": "music",
+      "parentId": "1286636835002646629",
+      "messages": 18,
+      "chunks": 1
+    },
+    {
+      "id": "1326458294994210877",
+      "name": "partners",
+      "parentId": "1286636835002646629",
+      "messages": 0,
+      "chunks": 0
+    },
+    {
+      "id": "1471094451467452554",
+      "name": "ballsdex",
+      "parentId": "1471094072038129767",
+      "messages": 0,
+      "chunks": 0
+    },
+    {
+      "id": "1471105315968651454",
+      "name": "dank-memer",
+      "parentId": "1471094072038129767",
+      "messages": 0,
+      "chunks": 0
+    },
+    {
+      "id": "1471102682281414736",
+      "name": "truth-or-dare",
+      "parentId": "1471094072038129767",
+      "messages": 0,
+      "chunks": 0
+    },
+    {
+      "id": "1471105358360740077",
+      "name": "tatsu",
+      "parentId": "1471094072038129767",
+      "messages": 0,
+      "chunks": 0
+    },
+    {
+      "id": "1471111016619315443",
+      "name": "baum-lingua",
+      "parentId": "1471094072038129767",
+      "messages": 0,
+      "chunks": 0
+    },
+    {
+      "id": "1471425378693419038",
+      "name": "mafia-time",
+      "parentId": "1471094072038129767",
+      "messages": 0,
+      "chunks": 0
+    },
+    {
+      "id": "1454548779020845248",
+      "name": "🫂-life-advice",
+      "parentId": "1454549317686919178",
+      "messages": 0,
+      "chunks": 0
+    }
+  ],
+  "totalMessages": 3316
+}

@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow,noarchive">
+<title>LinguaLounge Discord Backup</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="sidebar-backdrop" id="sidebar-backdrop" aria-hidden="true"></div>
+<div class="app">
+  <aside class="sidebar" id="sidebar">
+    <div class="server">
+      <h1 id="server-name">Discord Backup</h1>
+      <p id="server-info">Loading...</p>
+    </div>
+    <div class="search"><input id="search" placeholder="Search loaded messages..."></div>
+    <div class="channel-list" id="channel-list"></div>
+  </aside>
+  <main class="main">
+    <div class="topbar"><h2 id="active-title">Backup</h2><span id="active-meta"></span><button id="sidebar-toggle" class="sidebar-toggle" type="button" aria-label="Open channel menu" aria-expanded="false">☰</button></div>
+    <div class="toolbar">
+      <button id="older">Load older</button>
+      <button id="newest">Jump to newest</button>
+      <span class="status" id="status">Ready</span>
+      <span class="spacer"></span>
+      <span>Offline Discord backup</span>
+    </div>
+    <div class="message-scroller" id="message-scroller">
+      <div id="message-list" class="message-list"><div class="loader">Loading statistics...</div></div>
+    </div>
+  </main>
+</div>
+<script src="data/meta.js"></script>
+<script src="data/stats.js"></script>
+<script src="data/permissions.js"></script>
+<script src="data/users.js"></script>
+<script src="assets/app.js" defer></script>
+</body>
+</html>

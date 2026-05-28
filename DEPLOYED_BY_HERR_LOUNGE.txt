@@ -1,0 +1,7 @@
+Herr Lounge Discord backup website
+Guild: LinguaLounge (793744179066699787)
+Generated at: 2026-05-28T20:12:01.405Z
+Channels: 40
+Messages: 3316
+
+This branch is overwritten by the bot on every published backup.

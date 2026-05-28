@@ -1,0 +1,6285 @@
+{
+  "guild": {
+    "id": "793744179066699787",
+    "name": "LinguaLounge",
+    "ownerId": "540129267728515072",
+    "createdAt": "2020-12-30T07:35:59.343Z"
+  },
+  "generatedAt": "2026-05-28T19:44:15.037Z",
+  "window": "08.2025 -> 08.2025",
+  "note": "This file stores category and channel permission overwrites. Effective permissions still depend on current Discord role/member state.",
+  "categories": [
+    {
+      "id": "1292118104335323156",
+      "name": "announcements",
+      "type": "Category",
+      "parentId": null,
+      "parentName": null,
+      "position": 1,
+      "permissionsSynced": null,
+      "overwrites": [
+        {
+          "id": "793744179066699787",
+          "targetType": "role",
+          "targetName": "@everyone",
+          "allow": [],
+          "deny": [
+            "ViewChannel"
+          ],
+          "allowBitfield": "0",
+          "denyBitfield": "1024"
+        },
+        {
+          "id": "1280590549526511657",
+          "targetType": "role",
+          "targetName": "Bot",
+          "allow": [
+            "Connect",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "1049600",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "852906005640642570",
+          "targetType": "role",
+          "targetName": "Moderator",
+          "allow": [
+            "Connect",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "1049600",
+          "denyBitfield": "0"
+        }
+      ]
+    },
+    {
+      "id": "793744179519160360",
+      "name": "Channels",
+      "type": "Category",
+      "parentId": null,
+      "parentName": null,
+      "position": 2,
+      "permissionsSynced": null,
+      "overwrites": [
+        {
+          "id": "793744179066699787",
+          "targetType": "role",
+          "targetName": "@everyone",
+          "allow": [
+            "AddReactions",
+            "AttachFiles",
+            "CreateInstantInvite",
+            "ReadMessageHistory",
+            "SendMessages",
+            "UseApplicationCommands",
+            "UseExternalEmojis",
+            "UseExternalStickers",
+            "ViewChannel"
+          ],
+          "deny": [
+            "SendMessagesInThreads"
+          ],
+          "allowBitfield": "139586800705",
+          "denyBitfield": "274877906944"
+        },
+        {
+          "id": "1328685509555392603",
+          "targetType": "role",
+          "targetName": "Frau Lingua",
+          "allow": [
+            "AddReactions",
+            "AttachFiles",
+            "CreateEvents",
+            "EmbedLinks",
+            "ManageChannels",
+            "ManageEvents",
+            "ManageMessages",
+            "ManageRoles",
+            "ManageThreads",
+            "ReadMessageHistory",
+            "SendMessages",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "17618224409680",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1484645118697934952",
+          "targetType": "role",
+          "targetName": "Lingua Family",
+          "allow": [
+            "AddReactions",
+            "AttachFiles",
+            "BypassSlowmode",
+            "Connect",
+            "CreateEvents",
+            "CreateInstantInvite",
+            "CreatePrivateThreads",
+            "CreatePublicThreads",
+            "DeafenMembers",
+            "EmbedLinks",
+            "ManageChannels",
+            "ManageEvents",
+            "ManageMessages",
+            "ManageRoles",
+            "ManageThreads",
+            "ManageWebhooks",
+            "MentionEveryone",
+            "MoveMembers",
+            "MuteMembers",
+            "PinMessages",
+            "PrioritySpeaker",
+            "ReadMessageHistory",
+            "RequestToSpeak",
+            "SendMessages",
+            "SendMessagesInThreads",
+            "SendPolls",
+            "SendTTSMessages",
+            "SendVoiceMessages",
+            "Speak",
+            "Stream",
+            "UseApplicationCommands",
+            "UseEmbeddedActivities",
+            "UseExternalApps",
+            "UseExternalEmojis",
+            "UseExternalSounds",
+            "UseExternalStickers",
+            "UseSoundboard",
+            "UseVAD",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "8854365862887249",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1224754966363897916",
+          "targetType": "role",
+          "targetName": "Member",
+          "allow": [
+            "Connect",
+            "ReadMessageHistory",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "1115136",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "852906005640642570",
+          "targetType": "role",
+          "targetName": "Moderator",
+          "allow": [
+            "Connect",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "1049600",
+          "denyBitfield": "0"
+        }
+      ]
+    },
+    {
+      "id": "1286618460272594944",
+      "name": "German - Deutsch",
+      "type": "Category",
+      "parentId": null,
+      "parentName": null,
+      "position": 3,
+      "permissionsSynced": null,
+      "overwrites": [
+        {
+          "id": "793744179066699787",
+          "targetType": "role",
+          "targetName": "@everyone",
+          "allow": [],
+          "deny": [
+            "ViewChannel"
+          ],
+          "allowBitfield": "0",
+          "denyBitfield": "1024"
+        },
+        {
+          "id": "1328685509555392603",
+          "targetType": "role",
+          "targetName": "Frau Lingua",
+          "allow": [
+            "AddReactions",
+            "ManageChannels",
+            "ManageMessages",
+            "ManageRoles",
+            "ReadMessageHistory",
+            "SendMessages",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "268512336",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1225361583857860699",
+          "targetType": "role",
+          "targetName": "German",
+          "allow": [
+            "Connect",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "1049600",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1271105524359893128",
+          "targetType": "role",
+          "targetName": "German Native",
+          "allow": [
+            "AddReactions",
+            "AttachFiles",
+            "Connect",
+            "SendMessages",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "1084480",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1506904387610742844",
+          "targetType": "role",
+          "targetName": "Intern Moderator",
+          "allow": [
+            "ManageMessages",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "9216",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "870009158043303937",
+          "targetType": "member",
+          "targetName": "Jimmy",
+          "allow": [
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "1024",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "437808476106784770",
+          "targetType": "member",
+          "targetName": "Level Bot",
+          "allow": [],
+          "deny": [
+            "SendMessages"
+          ],
+          "allowBitfield": "0",
+          "denyBitfield": "2048"
+        },
+        {
+          "id": "1484645118697934952",
+          "targetType": "role",
+          "targetName": "Lingua Family",
+          "allow": [
+            "AddReactions",
+            "AttachFiles",
+            "BypassSlowmode",
+            "Connect",
+            "CreateEvents",
+            "CreateInstantInvite",
+            "CreatePrivateThreads",
+            "CreatePublicThreads",
+            "DeafenMembers",
+            "EmbedLinks",
+            "ManageChannels",
+            "ManageEvents",
+            "ManageMessages",
+            "ManageRoles",
+            "ManageThreads",
+            "ManageWebhooks",
+            "MentionEveryone",
+            "MoveMembers",
+            "MuteMembers",
+            "PinMessages",
+            "PrioritySpeaker",
+            "ReadMessageHistory",
+            "RequestToSpeak",
+            "SendMessages",
+            "SendMessagesInThreads",
+            "SendPolls",
+            "SendTTSMessages",
+            "SendVoiceMessages",
+            "Speak",
+            "Stream",
+            "UseApplicationCommands",
+            "UseEmbeddedActivities",
+            "UseExternalApps",
+            "UseExternalEmojis",
+            "UseExternalSounds",
+            "UseExternalStickers",
+            "UseSoundboard",
+            "UseVAD",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "8854365862887249",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "852906005640642570",
+          "targetType": "role",
+          "targetName": "Moderator",
+          "allow": [
+            "Connect",
+            "SendMessages",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "1051648",
+          "denyBitfield": "0"
+        }
+      ]
+    },
+    {
+      "id": "1286621424706129972",
+      "name": "French - Français",
+      "type": "Category",
+      "parentId": null,
+      "parentName": null,
+      "position": 4,
+      "permissionsSynced": null,
+      "overwrites": [
+        {
+          "id": "793744179066699787",
+          "targetType": "role",
+          "targetName": "@everyone",
+          "allow": [],
+          "deny": [
+            "Connect",
+            "ViewChannel"
+          ],
+          "allowBitfield": "0",
+          "denyBitfield": "1049600"
+        },
+        {
+          "id": "1328685509555392603",
+          "targetType": "role",
+          "targetName": "Frau Lingua",
+          "allow": [
+            "AddReactions",
+            "ManageChannels",
+            "ManageRoles",
+            "ManageThreads",
+            "ReadMessageHistory",
+            "SendMessages",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "17448373328",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1225361440869715979",
+          "targetType": "role",
+          "targetName": "French",
+          "allow": [
+            "Connect",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "1049600",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1277560168959184961",
+          "targetType": "role",
+          "targetName": "French Native",
+          "allow": [
+            "Connect",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "1049600",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1506904387610742844",
+          "targetType": "role",
+          "targetName": "Intern Moderator",
+          "allow": [
+            "ManageMessages",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "9216",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "870009158043303937",
+          "targetType": "member",
+          "targetName": "Jimmy",
+          "allow": [
+            "Connect",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "1049600",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "437808476106784770",
+          "targetType": "member",
+          "targetName": "Level Bot",
+          "allow": [],
+          "deny": [
+            "SendMessages"
+          ],
+          "allowBitfield": "0",
+          "denyBitfield": "2048"
+        },
+        {
+          "id": "1484645118697934952",
+          "targetType": "role",
+          "targetName": "Lingua Family",
+          "allow": [
+            "AddReactions",
+            "AttachFiles",
+            "BypassSlowmode",
+            "Connect",
+            "CreateEvents",
+            "CreateInstantInvite",
+            "CreatePrivateThreads",
+            "CreatePublicThreads",
+            "DeafenMembers",
+            "EmbedLinks",
+            "ManageChannels",
+            "ManageEvents",
+            "ManageMessages",
+            "ManageRoles",
+            "ManageThreads",
+            "ManageWebhooks",
+            "MentionEveryone",
+            "MoveMembers",
+            "MuteMembers",
+            "PinMessages",
+            "PrioritySpeaker",
+            "ReadMessageHistory",
+            "RequestToSpeak",
+            "SendMessages",
+            "SendMessagesInThreads",
+            "SendPolls",
+            "SendTTSMessages",
+            "SendVoiceMessages",
+            "Speak",
+            "Stream",
+            "UseApplicationCommands",
+            "UseEmbeddedActivities",
+            "UseExternalApps",
+            "UseExternalEmojis",
+            "UseExternalSounds",
+            "UseExternalStickers",
+            "UseSoundboard",
+            "UseVAD",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "8854365862887249",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "852906005640642570",
+          "targetType": "role",
+          "targetName": "Moderator",
+          "allow": [
+            "Connect",
+            "SendMessages",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "1051648",
+          "denyBitfield": "0"
+        }
+      ]
+    },
+    {
+      "id": "1303664278116765706",
+      "name": "Russian - русский",
+      "type": "Category",
+      "parentId": null,
+      "parentName": null,
+      "position": 5,
+      "permissionsSynced": null,
+      "overwrites": [
+        {
+          "id": "793744179066699787",
+          "targetType": "role",
+          "targetName": "@everyone",
+          "allow": [],
+          "deny": [
+            "ViewChannel"
+          ],
+          "allowBitfield": "0",
+          "denyBitfield": "1024"
+        },
+        {
+          "id": "1328685509555392603",
+          "targetType": "role",
+          "targetName": "Frau Lingua",
+          "allow": [
+            "AddReactions",
+            "ManageChannels",
+            "ManageMessages",
+            "ManageRoles",
+            "ReadMessageHistory",
+            "SendMessages",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "268512336",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1506904387610742844",
+          "targetType": "role",
+          "targetName": "Intern Moderator",
+          "allow": [
+            "ManageMessages",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "9216",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "437808476106784770",
+          "targetType": "member",
+          "targetName": "Level Bot",
+          "allow": [],
+          "deny": [
+            "SendMessages"
+          ],
+          "allowBitfield": "0",
+          "denyBitfield": "2048"
+        },
+        {
+          "id": "1484645118697934952",
+          "targetType": "role",
+          "targetName": "Lingua Family",
+          "allow": [
+            "AddReactions",
+            "AttachFiles",
+            "BypassSlowmode",
+            "Connect",
+            "CreateEvents",
+            "CreateInstantInvite",
+            "CreatePrivateThreads",
+            "CreatePublicThreads",
+            "DeafenMembers",
+            "EmbedLinks",
+            "ManageChannels",
+            "ManageEvents",
+            "ManageMessages",
+            "ManageRoles",
+            "ManageThreads",
+            "ManageWebhooks",
+            "MentionEveryone",
+            "MoveMembers",
+            "MuteMembers",
+            "PinMessages",
+            "PrioritySpeaker",
+            "ReadMessageHistory",
+            "RequestToSpeak",
+            "SendMessages",
+            "SendMessagesInThreads",
+            "SendPolls",
+            "SendTTSMessages",
+            "SendVoiceMessages",
+            "Speak",
+            "Stream",
+            "UseApplicationCommands",
+            "UseEmbeddedActivities",
+            "UseExternalApps",
+            "UseExternalEmojis",
+            "UseExternalSounds",
+            "UseExternalStickers",
+            "UseSoundboard",
+            "UseVAD",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "8854365862887249",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "852906005640642570",
+          "targetType": "role",
+          "targetName": "Moderator",
+          "allow": [
+            "Connect",
+            "SendMessages",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "1051648",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1303662239986876447",
+          "targetType": "role",
+          "targetName": "Russian",
+          "allow": [
+            "Connect",
+            "SendMessages",
+            "Speak",
+            "UseSoundboard",
+            "UseVAD",
+            "ViewChannel"
+          ],
+          "deny": [
+            "ManageChannels"
+          ],
+          "allowBitfield": "4398083214336",
+          "denyBitfield": "16"
+        },
+        {
+          "id": "1303662494367092736",
+          "targetType": "role",
+          "targetName": "Russian Native",
+          "allow": [
+            "Connect",
+            "SendMessages",
+            "Speak",
+            "UseVAD",
+            "ViewChannel"
+          ],
+          "deny": [
+            "ManageChannels"
+          ],
+          "allowBitfield": "36703232",
+          "denyBitfield": "16"
+        }
+      ]
+    },
+    {
+      "id": "1504476845742100622",
+      "name": "Spanish - Español",
+      "type": "Category",
+      "parentId": null,
+      "parentName": null,
+      "position": 6,
+      "permissionsSynced": null,
+      "overwrites": [
+        {
+          "id": "793744179066699787",
+          "targetType": "role",
+          "targetName": "@everyone",
+          "allow": [],
+          "deny": [
+            "Connect",
+            "ViewChannel"
+          ],
+          "allowBitfield": "0",
+          "denyBitfield": "1049600"
+        },
+        {
+          "id": "1506904387610742844",
+          "targetType": "role",
+          "targetName": "Intern Moderator",
+          "allow": [
+            "ManageMessages",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "9216",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "437808476106784770",
+          "targetType": "member",
+          "targetName": "Level Bot",
+          "allow": [],
+          "deny": [
+            "SendMessages"
+          ],
+          "allowBitfield": "0",
+          "denyBitfield": "2048"
+        },
+        {
+          "id": "1484645118697934952",
+          "targetType": "role",
+          "targetName": "Lingua Family",
+          "allow": [
+            "AddReactions",
+            "AttachFiles",
+            "BypassSlowmode",
+            "Connect",
+            "CreateEvents",
+            "CreateInstantInvite",
+            "CreatePrivateThreads",
+            "CreatePublicThreads",
+            "DeafenMembers",
+            "EmbedLinks",
+            "ManageChannels",
+            "ManageEvents",
+            "ManageMessages",
+            "ManageRoles",
+            "ManageThreads",
+            "ManageWebhooks",
+            "MentionEveryone",
+            "MoveMembers",
+            "MuteMembers",
+            "PinMessages",
+            "PrioritySpeaker",
+            "ReadMessageHistory",
+            "RequestToSpeak",
+            "SendMessages",
+            "SendMessagesInThreads",
+            "SendPolls",
+            "SendTTSMessages",
+            "SendVoiceMessages",
+            "Speak",
+            "Stream",
+            "UseApplicationCommands",
+            "UseEmbeddedActivities",
+            "UseExternalApps",
+            "UseExternalEmojis",
+            "UseExternalSounds",
+            "UseExternalStickers",
+            "UseSoundboard",
+            "UseVAD",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "8854365862887249",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "852906005640642570",
+          "targetType": "role",
+          "targetName": "Moderator",
+          "allow": [
+            "Connect",
+            "ReadMessageHistory",
+            "SendMessages",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "1117184",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1504513976006869043",
+          "targetType": "role",
+          "targetName": "Spanish",
+          "allow": [
+            "Connect",
+            "ReadMessageHistory",
+            "SendMessages",
+            "Speak",
+            "Stream",
+            "UseSoundboard",
+            "UseVAD",
+            "ViewChannel"
+          ],
+          "deny": [
+            "ManageChannels"
+          ],
+          "allowBitfield": "4398083280384",
+          "denyBitfield": "16"
+        },
+        {
+          "id": "1504513612788662382",
+          "targetType": "role",
+          "targetName": "Spanish Native",
+          "allow": [
+            "Connect",
+            "ReadMessageHistory",
+            "SendMessages",
+            "SendVoiceMessages",
+            "Speak",
+            "Stream",
+            "UseSoundboard",
+            "UseVAD",
+            "ViewChannel"
+          ],
+          "deny": [
+            "ManageChannels"
+          ],
+          "allowBitfield": "74766827458048",
+          "denyBitfield": "16"
+        }
+      ]
+    },
+    {
+      "id": "1505505610672898180",
+      "name": "Ukrainian - Українська",
+      "type": "Category",
+      "parentId": null,
+      "parentName": null,
+      "position": 7,
+      "permissionsSynced": null,
+      "overwrites": [
+        {
+          "id": "793744179066699787",
+          "targetType": "role",
+          "targetName": "@everyone",
+          "allow": [],
+          "deny": [
+            "Connect",
+            "ViewChannel"
+          ],
+          "allowBitfield": "0",
+          "denyBitfield": "1049600"
+        },
+        {
+          "id": "1506904387610742844",
+          "targetType": "role",
+          "targetName": "Intern Moderator",
+          "allow": [
+            "ManageMessages",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "9216",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "437808476106784770",
+          "targetType": "member",
+          "targetName": "Level Bot",
+          "allow": [
+            "SendMessages"
+          ],
+          "deny": [],
+          "allowBitfield": "2048",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1484645118697934952",
+          "targetType": "role",
+          "targetName": "Lingua Family",
+          "allow": [
+            "AddReactions",
+            "AttachFiles",
+            "BypassSlowmode",
+            "Connect",
+            "CreateEvents",
+            "CreateInstantInvite",
+            "CreatePrivateThreads",
+            "CreatePublicThreads",
+            "DeafenMembers",
+            "EmbedLinks",
+            "ManageChannels",
+            "ManageEvents",
+            "ManageMessages",
+            "ManageRoles",
+            "ManageThreads",
+            "ManageWebhooks",
+            "MentionEveryone",
+            "MoveMembers",
+            "MuteMembers",
+            "PinMessages",
+            "PrioritySpeaker",
+            "ReadMessageHistory",
+            "RequestToSpeak",
+            "SendMessages",
+            "SendMessagesInThreads",
+            "SendPolls",
+            "SendTTSMessages",
+            "SendVoiceMessages",
+            "Speak",
+            "Stream",
+            "UseApplicationCommands",
+            "UseEmbeddedActivities",
+            "UseExternalApps",
+            "UseExternalEmojis",
+            "UseExternalSounds",
+            "UseExternalStickers",
+            "UseSoundboard",
+            "UseVAD",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "8854365862887249",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "852906005640642570",
+          "targetType": "role",
+          "targetName": "Moderator",
+          "allow": [
+            "Connect",
+            "ReadMessageHistory",
+            "SendMessages",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "1117184",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1505522035550457886",
+          "targetType": "role",
+          "targetName": "Ukrainian",
+          "allow": [
+            "Connect",
+            "ReadMessageHistory",
+            "SendMessages",
+            "SendVoiceMessages",
+            "Speak",
+            "Stream",
+            "UseSoundboard",
+            "UseVAD",
+            "ViewChannel"
+          ],
+          "deny": [
+            "ManageChannels"
+          ],
+          "allowBitfield": "74766827458048",
+          "denyBitfield": "16"
+        },
+        {
+          "id": "1505521439347048479",
+          "targetType": "role",
+          "targetName": "Ukrainian Native",
+          "allow": [
+            "Connect",
+            "ReadMessageHistory",
+            "SendMessages",
+            "SendVoiceMessages",
+            "Speak",
+            "Stream",
+            "UseSoundboard",
+            "UseVAD",
+            "ViewChannel"
+          ],
+          "deny": [
+            "ManageChannels"
+          ],
+          "allowBitfield": "74766827458048",
+          "denyBitfield": "16"
+        }
+      ]
+    },
+    {
+      "id": "1505507890180653086",
+      "name": "Italian - Italiano",
+      "type": "Category",
+      "parentId": null,
+      "parentName": null,
+      "position": 8,
+      "permissionsSynced": null,
+      "overwrites": [
+        {
+          "id": "793744179066699787",
+          "targetType": "role",
+          "targetName": "@everyone",
+          "allow": [],
+          "deny": [
+            "Connect",
+            "ViewChannel"
+          ],
+          "allowBitfield": "0",
+          "denyBitfield": "1049600"
+        },
+        {
+          "id": "1506904387610742844",
+          "targetType": "role",
+          "targetName": "Intern Moderator",
+          "allow": [
+            "AddReactions",
+            "ManageMessages",
+            "SendMessages",
+            "SendMessagesInThreads",
+            "UseExternalEmojis",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "274878180416",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1505522111282679868",
+          "targetType": "role",
+          "targetName": "Italian",
+          "allow": [
+            "Connect",
+            "ReadMessageHistory",
+            "SendMessages",
+            "SendVoiceMessages",
+            "Speak",
+            "Stream",
+            "UseSoundboard",
+            "UseVAD",
+            "ViewChannel"
+          ],
+          "deny": [
+            "ManageChannels"
+          ],
+          "allowBitfield": "74766827458048",
+          "denyBitfield": "16"
+        },
+        {
+          "id": "1505521632259604561",
+          "targetType": "role",
+          "targetName": "Italian Native",
+          "allow": [
+            "Connect",
+            "ReadMessageHistory",
+            "SendMessages",
+            "SendVoiceMessages",
+            "Speak",
+            "Stream",
+            "UseSoundboard",
+            "UseVAD",
+            "ViewChannel"
+          ],
+          "deny": [
+            "ManageChannels"
+          ],
+          "allowBitfield": "74766827458048",
+          "denyBitfield": "16"
+        },
+        {
+          "id": "437808476106784770",
+          "targetType": "member",
+          "targetName": "Level Bot",
+          "allow": [],
+          "deny": [
+            "SendMessages"
+          ],
+          "allowBitfield": "0",
+          "denyBitfield": "2048"
+        },
+        {
+          "id": "1484645118697934952",
+          "targetType": "role",
+          "targetName": "Lingua Family",
+          "allow": [
+            "AddReactions",
+            "AttachFiles",
+            "BypassSlowmode",
+            "Connect",
+            "CreateEvents",
+            "CreateInstantInvite",
+            "CreatePrivateThreads",
+            "CreatePublicThreads",
+            "DeafenMembers",
+            "EmbedLinks",
+            "ManageChannels",
+            "ManageEvents",
+            "ManageMessages",
+            "ManageRoles",
+            "ManageThreads",
+            "ManageWebhooks",
+            "MentionEveryone",
+            "MoveMembers",
+            "MuteMembers",
+            "PinMessages",
+            "PrioritySpeaker",
+            "ReadMessageHistory",
+            "RequestToSpeak",
+            "SendMessages",
+            "SendMessagesInThreads",
+            "SendPolls",
+            "SendTTSMessages",
+            "SendVoiceMessages",
+            "Speak",
+            "Stream",
+            "UseApplicationCommands",
+            "UseEmbeddedActivities",
+            "UseExternalApps",
+            "UseExternalEmojis",
+            "UseExternalSounds",
+            "UseExternalStickers",
+            "UseSoundboard",
+            "UseVAD",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "8854365862887249",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "852906005640642570",
+          "targetType": "role",
+          "targetName": "Moderator",
+          "allow": [
+            "Connect",
+            "ReadMessageHistory",
+            "SendMessages",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "1117184",
+          "denyBitfield": "0"
+        }
+      ]
+    },
+    {
+      "id": "1505508374718976000",
+      "name": "Polish - Polski",
+      "type": "Category",
+      "parentId": null,
+      "parentName": null,
+      "position": 9,
+      "permissionsSynced": null,
+      "overwrites": [
+        {
+          "id": "793744179066699787",
+          "targetType": "role",
+          "targetName": "@everyone",
+          "allow": [],
+          "deny": [
+            "Connect",
+            "ViewChannel"
+          ],
+          "allowBitfield": "0",
+          "denyBitfield": "1049600"
+        },
+        {
+          "id": "1506904387610742844",
+          "targetType": "role",
+          "targetName": "Intern Moderator",
+          "allow": [
+            "AddReactions",
+            "AttachFiles",
+            "EmbedLinks",
+            "ManageMessages",
+            "ReadMessageHistory",
+            "SendMessages",
+            "SendMessagesInThreads",
+            "UseExternalEmojis",
+            "UseExternalStickers",
+            "ViewChannel"
+          ],
+          "deny": [
+            "MentionEveryone"
+          ],
+          "allowBitfield": "412317248576",
+          "denyBitfield": "131072"
+        },
+        {
+          "id": "437808476106784770",
+          "targetType": "member",
+          "targetName": "Level Bot",
+          "allow": [],
+          "deny": [
+            "SendMessages"
+          ],
+          "allowBitfield": "0",
+          "denyBitfield": "2048"
+        },
+        {
+          "id": "1484645118697934952",
+          "targetType": "role",
+          "targetName": "Lingua Family",
+          "allow": [
+            "AddReactions",
+            "AttachFiles",
+            "BypassSlowmode",
+            "Connect",
+            "CreateEvents",
+            "CreateInstantInvite",
+            "CreatePrivateThreads",
+            "CreatePublicThreads",
+            "DeafenMembers",
+            "EmbedLinks",
+            "ManageChannels",
+            "ManageEvents",
+            "ManageMessages",
+            "ManageRoles",
+            "ManageThreads",
+            "ManageWebhooks",
+            "MentionEveryone",
+            "MoveMembers",
+            "MuteMembers",
+            "PinMessages",
+            "PrioritySpeaker",
+            "ReadMessageHistory",
+            "RequestToSpeak",
+            "SendMessages",
+            "SendMessagesInThreads",
+            "SendPolls",
+            "SendTTSMessages",
+            "SendVoiceMessages",
+            "Speak",
+            "Stream",
+            "UseApplicationCommands",
+            "UseEmbeddedActivities",
+            "UseExternalApps",
+            "UseExternalEmojis",
+            "UseExternalSounds",
+            "UseExternalStickers",
+            "UseSoundboard",
+            "UseVAD",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "8854365862887249",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "852906005640642570",
+          "targetType": "role",
+          "targetName": "Moderator",
+          "allow": [
+            "ReadMessageHistory",
+            "SendMessages",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "68608",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1505522302010527834",
+          "targetType": "role",
+          "targetName": "Polish",
+          "allow": [
+            "Connect",
+            "ReadMessageHistory",
+            "SendMessages",
+            "SendVoiceMessages",
+            "Speak",
+            "Stream",
+            "UseSoundboard",
+            "UseVAD",
+            "ViewChannel"
+          ],
+          "deny": [
+            "ManageChannels"
+          ],
+          "allowBitfield": "74766827458048",
+          "denyBitfield": "16"
+        },
+        {
+          "id": "1505521841878470716",
+          "targetType": "role",
+          "targetName": "Polish Native",
+          "allow": [
+            "Connect",
+            "ReadMessageHistory",
+            "SendMessages",
+            "SendVoiceMessages",
+            "Speak",
+            "Stream",
+            "UseSoundboard",
+            "UseVAD",
+            "ViewChannel"
+          ],
+          "deny": [
+            "ManageChannels"
+          ],
+          "allowBitfield": "74766827458048",
+          "denyBitfield": "16"
+        }
+      ]
+    },
+    {
+      "id": "793744179519160361",
+      "name": "vc",
+      "type": "Category",
+      "parentId": null,
+      "parentName": null,
+      "position": 10,
+      "permissionsSynced": null,
+      "overwrites": [
+        {
+          "id": "1463237212383744032",
+          "targetType": "role",
+          "targetName": "Herr Lounge",
+          "allow": [
+            "ReadMessageHistory",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "66560",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1506904387610742844",
+          "targetType": "role",
+          "targetName": "Intern Moderator",
+          "allow": [
+            "ManageMessages"
+          ],
+          "deny": [],
+          "allowBitfield": "8192",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1224754966363897916",
+          "targetType": "role",
+          "targetName": "Member",
+          "allow": [
+            "ReadMessageHistory",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "66560",
+          "denyBitfield": "0"
+        }
+      ]
+    },
+    {
+      "id": "1286636835002646629",
+      "name": "Topics",
+      "type": "Category",
+      "parentId": null,
+      "parentName": null,
+      "position": 11,
+      "permissionsSynced": null,
+      "overwrites": [
+        {
+          "id": "1328685509555392603",
+          "targetType": "role",
+          "targetName": "Frau Lingua",
+          "allow": [
+            "AddReactions",
+            "ManageChannels",
+            "ManageMessages",
+            "ManageRoles",
+            "ReadMessageHistory",
+            "SendMessages",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "268512336",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1463237212383744032",
+          "targetType": "role",
+          "targetName": "Herr Lounge",
+          "allow": [
+            "ReadMessageHistory",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "66560",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1506904387610742844",
+          "targetType": "role",
+          "targetName": "Intern Moderator",
+          "allow": [
+            "ManageMessages",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "9216",
+          "denyBitfield": "0"
+        }
+      ]
+    },
+    {
+      "id": "1471094072038129767",
+      "name": "Fun",
+      "type": "Category",
+      "parentId": null,
+      "parentName": null,
+      "position": 12,
+      "permissionsSynced": null,
+      "overwrites": [
+        {
+          "id": "1463237212383744032",
+          "targetType": "role",
+          "targetName": "Herr Lounge",
+          "allow": [
+            "AddReactions",
+            "AttachFiles",
+            "BypassSlowmode",
+            "Connect",
+            "CreateEvents",
+            "CreateInstantInvite",
+            "CreatePrivateThreads",
+            "CreatePublicThreads",
+            "DeafenMembers",
+            "EmbedLinks",
+            "ManageChannels",
+            "ManageEvents",
+            "ManageMessages",
+            "ManageRoles",
+            "ManageThreads",
+            "ManageWebhooks",
+            "MentionEveryone",
+            "MoveMembers",
+            "MuteMembers",
+            "PinMessages",
+            "PrioritySpeaker",
+            "ReadMessageHistory",
+            "RequestToSpeak",
+            "SendMessages",
+            "SendMessagesInThreads",
+            "SendPolls",
+            "SendTTSMessages",
+            "SendVoiceMessages",
+            "Speak",
+            "Stream",
+            "UseApplicationCommands",
+            "UseEmbeddedActivities",
+            "UseExternalApps",
+            "UseExternalEmojis",
+            "UseExternalSounds",
+            "UseExternalStickers",
+            "UseSoundboard",
+            "UseVAD",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "8854365862887249",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1506904387610742844",
+          "targetType": "role",
+          "targetName": "Intern Moderator",
+          "allow": [
+            "ManageMessages",
+            "ReadMessageHistory",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "74752",
+          "denyBitfield": "0"
+        }
+      ]
+    },
+    {
+      "id": "1454549317686919178",
+      "name": "vents",
+      "type": "Category",
+      "parentId": null,
+      "parentName": null,
+      "position": 13,
+      "permissionsSynced": null,
+      "overwrites": [
+        {
+          "id": "793744179066699787",
+          "targetType": "role",
+          "targetName": "@everyone",
+          "allow": [],
+          "deny": [
+            "ViewChannel"
+          ],
+          "allowBitfield": "0",
+          "denyBitfield": "1024"
+        },
+        {
+          "id": "852906005640642570",
+          "targetType": "role",
+          "targetName": "Moderator",
+          "allow": [
+            "Connect",
+            "ManageChannels",
+            "ManageMessages",
+            "SendMessages",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "1059856",
+          "denyBitfield": "0"
+        }
+      ]
+    }
+  ],
+  "channels": [
+    {
+      "id": "1352145367013134387",
+      "name": "getting-started",
+      "type": "Text Channel",
+      "parentId": null,
+      "parentName": null,
+      "position": 0,
+      "permissionsSynced": null,
+      "overwrites": [
+        {
+          "id": "793744179066699787",
+          "targetType": "role",
+          "targetName": "@everyone",
+          "allow": [
+            "ViewChannel"
+          ],
+          "deny": [
+            "AddReactions",
+            "CreatePrivateThreads",
+            "CreatePublicThreads",
+            "ManageChannels",
+            "SendMessages"
+          ],
+          "allowBitfield": "1024",
+          "denyBitfield": "103079217232"
+        }
+      ]
+    },
+    {
+      "id": "1410887257635688528",
+      "name": "rules",
+      "type": "Text Channel",
+      "parentId": null,
+      "parentName": null,
+      "position": 1,
+      "permissionsSynced": null,
+      "overwrites": [
+        {
+          "id": "793744179066699787",
+          "targetType": "role",
+          "targetName": "@everyone",
+          "allow": [
+            "AddReactions",
+            "ReadMessageHistory",
+            "ViewChannel"
+          ],
+          "deny": [
+            "CreatePrivateThreads",
+            "CreatePublicThreads",
+            "ManageChannels",
+            "ManageMessages",
+            "ManageRoles",
+            "ManageWebhooks",
+            "PinMessages",
+            "SendMessages"
+          ],
+          "allowBitfield": "66624",
+          "denyBitfield": "2251903698216976"
+        },
+        {
+          "id": "1328685509555392603",
+          "targetType": "role",
+          "targetName": "Frau Lingua",
+          "allow": [
+            "AddReactions",
+            "AttachFiles",
+            "ReadMessageHistory",
+            "SendMessages",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "101440",
+          "denyBitfield": "0"
+        }
+      ]
+    },
+    {
+      "id": "1279821768785137686",
+      "name": "announcements",
+      "type": "Announcement Channel",
+      "parentId": "1292118104335323156",
+      "parentName": "announcements",
+      "position": 11,
+      "permissionsSynced": false,
+      "overwrites": [
+        {
+          "id": "793744179066699787",
+          "targetType": "role",
+          "targetName": "@everyone",
+          "allow": [
+            "AddReactions",
+            "ViewChannel"
+          ],
+          "deny": [
+            "CreatePublicThreads",
+            "ManageChannels",
+            "SendMessages",
+            "SendMessagesInThreads"
+          ],
+          "allowBitfield": "1088",
+          "denyBitfield": "309237647376"
+        },
+        {
+          "id": "1328685509555392603",
+          "targetType": "role",
+          "targetName": "Frau Lingua",
+          "allow": [
+            "AddReactions",
+            "AttachFiles",
+            "EmbedLinks",
+            "ReadMessageHistory",
+            "SendMessages",
+            "UseExternalEmojis",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "379968",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1225361440869715979",
+          "targetType": "role",
+          "targetName": "French",
+          "allow": [
+            "AddReactions",
+            "ViewChannel"
+          ],
+          "deny": [
+            "SendMessages"
+          ],
+          "allowBitfield": "1088",
+          "denyBitfield": "2048"
+        },
+        {
+          "id": "1225361583857860699",
+          "targetType": "role",
+          "targetName": "German",
+          "allow": [
+            "AddReactions",
+            "ViewChannel"
+          ],
+          "deny": [
+            "SendMessages",
+            "SendMessagesInThreads"
+          ],
+          "allowBitfield": "1088",
+          "denyBitfield": "274877908992"
+        },
+        {
+          "id": "924619870891552799",
+          "targetType": "member",
+          "targetName": "iTranslator",
+          "allow": [],
+          "deny": [
+            "AddReactions",
+            "AttachFiles",
+            "CreatePublicThreads",
+            "EmbedLinks",
+            "MentionEveryone",
+            "SendMessagesInThreads",
+            "UseExternalEmojis",
+            "UseExternalStickers",
+            "ViewChannel"
+          ],
+          "allowBitfield": "0",
+          "denyBitfield": "446677042240"
+        },
+        {
+          "id": "1224754966363897916",
+          "targetType": "role",
+          "targetName": "Member",
+          "allow": [
+            "AddReactions",
+            "ViewChannel"
+          ],
+          "deny": [
+            "AttachFiles",
+            "CreatePublicThreads",
+            "SendMessages"
+          ],
+          "allowBitfield": "1088",
+          "denyBitfield": "34359773184"
+        },
+        {
+          "id": "852906005640642570",
+          "targetType": "role",
+          "targetName": "Moderator",
+          "allow": [
+            "ManageMessages",
+            "MentionEveryone",
+            "SendMessages",
+            "SendPolls",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "562949953563648",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1303817555768770610",
+          "targetType": "role",
+          "targetName": "Muted",
+          "allow": [],
+          "deny": [
+            "SendMessages"
+          ],
+          "allowBitfield": "0",
+          "denyBitfield": "2048"
+        }
+      ]
+    },
+    {
+      "id": "818023712019316777",
+      "name": "welcome",
+      "type": "Text Channel",
+      "parentId": "793744179519160360",
+      "parentName": "Channels",
+      "position": 12,
+      "permissionsSynced": false,
+      "overwrites": [
+        {
+          "id": "793744179066699787",
+          "targetType": "role",
+          "targetName": "@everyone",
+          "allow": [
+            "AddReactions",
+            "ReadMessageHistory",
+            "ViewChannel"
+          ],
+          "deny": [
+            "CreateInstantInvite",
+            "CreatePrivateThreads",
+            "CreatePublicThreads",
+            "EmbedLinks",
+            "ManageChannels",
+            "ManageRoles",
+            "ManageWebhooks",
+            "MentionEveryone",
+            "SendMessages",
+            "SendMessagesInThreads"
+          ],
+          "allowBitfield": "66624",
+          "denyBitfield": "378762577937"
+        },
+        {
+          "id": "1271886643875549306",
+          "targetType": "role",
+          "targetName": "Arcane",
+          "allow": [
+            "AddReactions",
+            "AttachFiles",
+            "MentionEveryone",
+            "SendMessages",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "166976",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "302050872383242240",
+          "targetType": "member",
+          "targetName": "DISBOARD",
+          "allow": [
+            "CreateInstantInvite",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "1025",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1224753012224950577",
+          "targetType": "role",
+          "targetName": "Dyno",
+          "allow": [
+            "CreatePrivateThreads",
+            "SendMessages",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "68719479808",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1328685509555392603",
+          "targetType": "role",
+          "targetName": "Frau Lingua",
+          "allow": [
+            "ReadMessageHistory",
+            "SendMessages",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "68608",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1303817555768770610",
+          "targetType": "role",
+          "targetName": "Muted",
+          "allow": [],
+          "deny": [
+            "SendMessages"
+          ],
+          "allowBitfield": "0",
+          "denyBitfield": "2048"
+        },
+        {
+          "id": "1396732700697694311",
+          "targetType": "role",
+          "targetName": "Welcomer",
+          "allow": [
+            "AttachFiles",
+            "EmbedLinks",
+            "ManageMessages",
+            "ReadMessageHistory",
+            "SendMessages",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "125952",
+          "denyBitfield": "0"
+        }
+      ]
+    },
+    {
+      "id": "1232747328608145439",
+      "name": "introduce-yourself",
+      "type": "Text Channel",
+      "parentId": "793744179519160360",
+      "parentName": "Channels",
+      "position": 13,
+      "permissionsSynced": false,
+      "overwrites": [
+        {
+          "id": "793744179066699787",
+          "targetType": "role",
+          "targetName": "@everyone",
+          "allow": [
+            "AddReactions",
+            "AttachFiles",
+            "CreateInstantInvite",
+            "ReadMessageHistory",
+            "SendMessages",
+            "SendMessagesInThreads",
+            "UseApplicationCommands",
+            "UseExternalEmojis",
+            "UseExternalStickers",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "414464707649",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1328685509555392603",
+          "targetType": "role",
+          "targetName": "Frau Lingua",
+          "allow": [
+            "ManageMessages",
+            "ReadMessageHistory",
+            "SendMessages",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "76800",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1506904387610742844",
+          "targetType": "role",
+          "targetName": "Intern Moderator",
+          "allow": [
+            "ManageMessages"
+          ],
+          "deny": [],
+          "allowBitfield": "8192",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1352330137730941086",
+          "targetType": "role",
+          "targetName": "iTranslator",
+          "allow": [],
+          "deny": [
+            "ViewChannel"
+          ],
+          "allowBitfield": "0",
+          "denyBitfield": "1024"
+        },
+        {
+          "id": "437808476106784770",
+          "targetType": "member",
+          "targetName": "Level Bot",
+          "allow": [
+            "ViewChannel"
+          ],
+          "deny": [
+            "SendMessages"
+          ],
+          "allowBitfield": "1024",
+          "denyBitfield": "2048"
+        },
+        {
+          "id": "1224754966363897916",
+          "targetType": "role",
+          "targetName": "Member",
+          "allow": [
+            "Connect",
+            "ReadMessageHistory",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "1115136",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "852906005640642570",
+          "targetType": "role",
+          "targetName": "Moderator",
+          "allow": [
+            "Connect",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "1049600",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1303817555768770610",
+          "targetType": "role",
+          "targetName": "Muted",
+          "allow": [],
+          "deny": [
+            "SendMessages"
+          ],
+          "allowBitfield": "0",
+          "denyBitfield": "2048"
+        }
+      ]
+    },
+    {
+      "id": "818023867372011551",
+      "name": "general",
+      "type": "Text Channel",
+      "parentId": "793744179519160360",
+      "parentName": "Channels",
+      "position": 14,
+      "permissionsSynced": false,
+      "overwrites": [
+        {
+          "id": "793744179066699787",
+          "targetType": "role",
+          "targetName": "@everyone",
+          "allow": [
+            "AddReactions",
+            "AttachFiles",
+            "CreateInstantInvite",
+            "ReadMessageHistory",
+            "SendMessages",
+            "SendVoiceMessages",
+            "UseEmbeddedActivities",
+            "UseExternalEmojis",
+            "UseExternalStickers"
+          ],
+          "deny": [
+            "EmbedLinks",
+            "UseExternalApps"
+          ],
+          "allowBitfield": "71055939307585",
+          "denyBitfield": "1125899906859008"
+        },
+        {
+          "id": "1280590549526511657",
+          "targetType": "role",
+          "targetName": "Bot",
+          "allow": [
+            "CreateInstantInvite",
+            "CreatePrivateThreads",
+            "EmbedLinks",
+            "ManageMessages",
+            "ManageRoles",
+            "ReadMessageHistory",
+            "SendMessages",
+            "SendMessagesInThreads",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "343865912321",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1328685509555392603",
+          "targetType": "role",
+          "targetName": "Frau Lingua",
+          "allow": [
+            "ManageMessages",
+            "ReadMessageHistory",
+            "SendMessages",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "76800",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1225361440869715979",
+          "targetType": "role",
+          "targetName": "French",
+          "allow": [
+            "CreateInstantInvite",
+            "SendMessages",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "3073",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1225361583857860699",
+          "targetType": "role",
+          "targetName": "German",
+          "allow": [
+            "SendMessages",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "3072",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1506904387610742844",
+          "targetType": "role",
+          "targetName": "Intern Moderator",
+          "allow": [
+            "ManageMessages"
+          ],
+          "deny": [],
+          "allowBitfield": "8192",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1270047044790128833",
+          "targetType": "role",
+          "targetName": "Intern Moderator",
+          "allow": [],
+          "deny": [],
+          "allowBitfield": "0",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "437808476106784770",
+          "targetType": "member",
+          "targetName": "Level Bot",
+          "allow": [],
+          "deny": [
+            "SendMessages"
+          ],
+          "allowBitfield": "0",
+          "denyBitfield": "2048"
+        },
+        {
+          "id": "949479338275913799",
+          "targetType": "member",
+          "targetName": "Make it a Quote",
+          "allow": [
+            "EmbedLinks"
+          ],
+          "deny": [],
+          "allowBitfield": "16384",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1224754966363897916",
+          "targetType": "role",
+          "targetName": "Member",
+          "allow": [
+            "AttachFiles",
+            "EmbedLinks",
+            "SendMessages",
+            "ViewChannel"
+          ],
+          "deny": [
+            "UseExternalApps"
+          ],
+          "allowBitfield": "52224",
+          "denyBitfield": "1125899906842624"
+        },
+        {
+          "id": "1303817555768770610",
+          "targetType": "role",
+          "targetName": "Muted",
+          "allow": [],
+          "deny": [
+            "SendMessages"
+          ],
+          "allowBitfield": "0",
+          "denyBitfield": "2048"
+        },
+        {
+          "id": "1271149172376211668",
+          "targetType": "role",
+          "targetName": "Regulars",
+          "allow": [
+            "EmbedLinks"
+          ],
+          "deny": [
+            "AttachFiles",
+            "UseExternalApps"
+          ],
+          "allowBitfield": "16384",
+          "denyBitfield": "1125899906875392"
+        }
+      ]
+    },
+    {
+      "id": "1379745979737309338",
+      "name": "media",
+      "type": "Text Channel",
+      "parentId": "793744179519160360",
+      "parentName": "Channels",
+      "position": 15,
+      "permissionsSynced": false,
+      "overwrites": [
+        {
+          "id": "793744179066699787",
+          "targetType": "role",
+          "targetName": "@everyone",
+          "allow": [
+            "AddReactions",
+            "AttachFiles",
+            "CreateInstantInvite",
+            "ReadMessageHistory",
+            "SendMessages",
+            "UseApplicationCommands",
+            "UseExternalEmojis",
+            "UseExternalStickers",
+            "ViewChannel"
+          ],
+          "deny": [
+            "SendMessagesInThreads"
+          ],
+          "allowBitfield": "139586800705",
+          "denyBitfield": "274877906944"
+        },
+        {
+          "id": "1328685509555392603",
+          "targetType": "role",
+          "targetName": "Frau Lingua",
+          "allow": [
+            "AddReactions",
+            "AttachFiles",
+            "CreateEvents",
+            "EmbedLinks",
+            "ManageChannels",
+            "ManageEvents",
+            "ManageMessages",
+            "ManageRoles",
+            "ManageThreads",
+            "ReadMessageHistory",
+            "SendMessages",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "17618224409680",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1506904387610742844",
+          "targetType": "role",
+          "targetName": "Intern Moderator",
+          "allow": [
+            "ManageMessages"
+          ],
+          "deny": [],
+          "allowBitfield": "8192",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1224754966363897916",
+          "targetType": "role",
+          "targetName": "Member",
+          "allow": [
+            "Connect",
+            "ReadMessageHistory",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "1115136",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "852906005640642570",
+          "targetType": "role",
+          "targetName": "Moderator",
+          "allow": [
+            "Connect",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "1049600",
+          "denyBitfield": "0"
+        }
+      ]
+    },
+    {
+      "id": "1304318856663273502",
+      "name": "meme",
+      "type": "Text Channel",
+      "parentId": "793744179519160360",
+      "parentName": "Channels",
+      "position": 16,
+      "permissionsSynced": false,
+      "overwrites": [
+        {
+          "id": "1506904387610742844",
+          "targetType": "role",
+          "targetName": "Intern Moderator",
+          "allow": [
+            "ManageMessages"
+          ],
+          "deny": [],
+          "allowBitfield": "8192",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1224754966363897916",
+          "targetType": "role",
+          "targetName": "Member",
+          "allow": [
+            "SendMessages",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "3072",
+          "denyBitfield": "0"
+        }
+      ]
+    },
+    {
+      "id": "1233064915703693312",
+      "name": "quiz-bot",
+      "type": "Text Channel",
+      "parentId": "793744179519160360",
+      "parentName": "Channels",
+      "position": 17,
+      "permissionsSynced": false,
+      "overwrites": [
+        {
+          "id": "793744179066699787",
+          "targetType": "role",
+          "targetName": "@everyone",
+          "allow": [
+            "AddReactions",
+            "AttachFiles",
+            "CreateInstantInvite",
+            "ReadMessageHistory",
+            "SendMessages",
+            "SendMessagesInThreads",
+            "UseApplicationCommands",
+            "UseExternalEmojis",
+            "UseExternalStickers",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "414464707649",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1271886643875549306",
+          "targetType": "role",
+          "targetName": "Arcane",
+          "allow": [],
+          "deny": [
+            "SendMessages",
+            "ViewChannel"
+          ],
+          "allowBitfield": "0",
+          "denyBitfield": "3072"
+        },
+        {
+          "id": "1328685509555392603",
+          "targetType": "role",
+          "targetName": "Frau Lingua",
+          "allow": [
+            "AddReactions",
+            "AttachFiles",
+            "EmbedLinks",
+            "ManageMessages",
+            "ReadMessageHistory",
+            "SendMessages",
+            "UseExternalEmojis",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "388160",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1506904387610742844",
+          "targetType": "role",
+          "targetName": "Intern Moderator",
+          "allow": [
+            "ManageMessages"
+          ],
+          "deny": [],
+          "allowBitfield": "8192",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1352330137730941086",
+          "targetType": "role",
+          "targetName": "iTranslator",
+          "allow": [],
+          "deny": [
+            "SendMessages",
+            "ViewChannel"
+          ],
+          "allowBitfield": "0",
+          "denyBitfield": "3072"
+        },
+        {
+          "id": "1224754966363897916",
+          "targetType": "role",
+          "targetName": "Member",
+          "allow": [
+            "AddReactions",
+            "Connect",
+            "ReadMessageHistory",
+            "SendMessages",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "1117248",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "852906005640642570",
+          "targetType": "role",
+          "targetName": "Moderator",
+          "allow": [
+            "Connect",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "1049600",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1303817555768770610",
+          "targetType": "role",
+          "targetName": "Muted",
+          "allow": [],
+          "deny": [
+            "SendMessages"
+          ],
+          "allowBitfield": "0",
+          "denyBitfield": "2048"
+        },
+        {
+          "id": "1271149172376211668",
+          "targetType": "role",
+          "targetName": "Regulars",
+          "allow": [
+            "AttachFiles",
+            "EmbedLinks"
+          ],
+          "deny": [],
+          "allowBitfield": "49152",
+          "denyBitfield": "0"
+        }
+      ]
+    },
+    {
+      "id": "1225063814962090136",
+      "name": "bots-bump",
+      "type": "Text Channel",
+      "parentId": "793744179519160360",
+      "parentName": "Channels",
+      "position": 18,
+      "permissionsSynced": false,
+      "overwrites": [
+        {
+          "id": "793744179066699787",
+          "targetType": "role",
+          "targetName": "@everyone",
+          "allow": [
+            "AddReactions",
+            "AttachFiles",
+            "CreateInstantInvite",
+            "ReadMessageHistory",
+            "SendMessages",
+            "UseApplicationCommands",
+            "UseExternalEmojis",
+            "UseExternalStickers",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "139586800705",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1271886643875549306",
+          "targetType": "role",
+          "targetName": "Arcane",
+          "allow": [
+            "ReadMessageHistory",
+            "SendMessages",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "68608",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1280590549526511657",
+          "targetType": "role",
+          "targetName": "Bot",
+          "allow": [
+            "AttachFiles",
+            "EmbedLinks",
+            "ManageMessages",
+            "ReadMessageHistory",
+            "SendMessages",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "125952",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "302050872383242240",
+          "targetType": "member",
+          "targetName": "DISBOARD",
+          "allow": [],
+          "deny": [
+            "EmbedLinks",
+            "SendMessages"
+          ],
+          "allowBitfield": "0",
+          "denyBitfield": "18432"
+        },
+        {
+          "id": "1304331529731964931",
+          "targetType": "role",
+          "targetName": "DISBOARD.org",
+          "allow": [
+            "ViewChannel"
+          ],
+          "deny": [
+            "SendMessages"
+          ],
+          "allowBitfield": "1024",
+          "denyBitfield": "2048"
+        },
+        {
+          "id": "1328685509555392603",
+          "targetType": "role",
+          "targetName": "Frau Lingua",
+          "allow": [
+            "AddReactions",
+            "CreatePrivateThreads",
+            "CreatePublicThreads",
+            "ManageMessages",
+            "ReadMessageHistory",
+            "SendMessages",
+            "SendMessagesInThreads",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "377957198912",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1463237212383744032",
+          "targetType": "role",
+          "targetName": "Herr Lounge",
+          "allow": [
+            "AddReactions",
+            "AttachFiles",
+            "BypassSlowmode",
+            "CreateInstantInvite",
+            "CreatePrivateThreads",
+            "CreatePublicThreads",
+            "EmbedLinks",
+            "ManageChannels",
+            "ManageMessages",
+            "ManageRoles",
+            "ManageThreads",
+            "ManageWebhooks",
+            "MentionEveryone",
+            "PinMessages",
+            "ReadMessageHistory",
+            "SendMessages",
+            "SendMessagesInThreads",
+            "SendPolls",
+            "SendTTSMessages",
+            "SendVoiceMessages",
+            "UseApplicationCommands",
+            "UseEmbeddedActivities",
+            "UseExternalApps",
+            "UseExternalEmojis",
+            "UseExternalStickers",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "8515703330569297",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1506904387610742844",
+          "targetType": "role",
+          "targetName": "Intern Moderator",
+          "allow": [
+            "ManageMessages",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "9216",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1224754966363897916",
+          "targetType": "role",
+          "targetName": "Member",
+          "allow": [
+            "AddReactions",
+            "AttachFiles",
+            "Connect",
+            "EmbedLinks",
+            "ReadMessageHistory",
+            "SendMessages",
+            "UseApplicationCommands",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "2148650048",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "852906005640642570",
+          "targetType": "role",
+          "targetName": "Moderator",
+          "allow": [
+            "Connect",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "1049600",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1303817555768770610",
+          "targetType": "role",
+          "targetName": "Muted",
+          "allow": [],
+          "deny": [
+            "SendMessages"
+          ],
+          "allowBitfield": "0",
+          "denyBitfield": "2048"
+        }
+      ]
+    },
+    {
+      "id": "818026077116825620",
+      "name": "resources",
+      "type": "Text Channel",
+      "parentId": "793744179519160360",
+      "parentName": "Channels",
+      "position": 19,
+      "permissionsSynced": false,
+      "overwrites": [
+        {
+          "id": "793744179066699787",
+          "targetType": "role",
+          "targetName": "@everyone",
+          "allow": [
+            "AddReactions",
+            "AttachFiles",
+            "CreateInstantInvite",
+            "ReadMessageHistory",
+            "SendMessages",
+            "UseApplicationCommands",
+            "UseExternalEmojis",
+            "UseExternalStickers",
+            "ViewChannel"
+          ],
+          "deny": [
+            "SendMessagesInThreads"
+          ],
+          "allowBitfield": "139586800705",
+          "denyBitfield": "274877906944"
+        },
+        {
+          "id": "1328685509555392603",
+          "targetType": "role",
+          "targetName": "Frau Lingua",
+          "allow": [
+            "AddReactions",
+            "AttachFiles",
+            "CreateEvents",
+            "EmbedLinks",
+            "ManageChannels",
+            "ManageEvents",
+            "ManageMessages",
+            "ManageRoles",
+            "ManageThreads",
+            "ReadMessageHistory",
+            "SendMessages",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "17618224409680",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1506904387610742844",
+          "targetType": "role",
+          "targetName": "Intern Moderator",
+          "allow": [
+            "ManageMessages",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "9216",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1224754966363897916",
+          "targetType": "role",
+          "targetName": "Member",
+          "allow": [
+            "Connect",
+            "ReadMessageHistory",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "1115136",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "852906005640642570",
+          "targetType": "role",
+          "targetName": "Moderator",
+          "allow": [
+            "Connect",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "1049600",
+          "denyBitfield": "0"
+        }
+      ]
+    },
+    {
+      "id": "1233064967109087292",
+      "name": "other-languages",
+      "type": "Text Channel",
+      "parentId": "793744179519160360",
+      "parentName": "Channels",
+      "position": 21,
+      "permissionsSynced": false,
+      "overwrites": [
+        {
+          "id": "793744179066699787",
+          "targetType": "role",
+          "targetName": "@everyone",
+          "allow": [
+            "AddReactions",
+            "AttachFiles",
+            "CreateInstantInvite",
+            "ReadMessageHistory",
+            "SendMessages",
+            "SendMessagesInThreads",
+            "UseApplicationCommands",
+            "UseExternalEmojis",
+            "UseExternalStickers",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "414464707649",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1328685509555392603",
+          "targetType": "role",
+          "targetName": "Frau Lingua",
+          "allow": [
+            "ManageMessages",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "9216",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1506904387610742844",
+          "targetType": "role",
+          "targetName": "Intern Moderator",
+          "allow": [
+            "ManageMessages",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "9216",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1224754966363897916",
+          "targetType": "role",
+          "targetName": "Member",
+          "allow": [
+            "Connect",
+            "ReadMessageHistory",
+            "SendMessages",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "1117184",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "852906005640642570",
+          "targetType": "role",
+          "targetName": "Moderator",
+          "allow": [
+            "Connect",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "1049600",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1303817555768770610",
+          "targetType": "role",
+          "targetName": "Muted",
+          "allow": [],
+          "deny": [
+            "SendMessages"
+          ],
+          "allowBitfield": "0",
+          "denyBitfield": "2048"
+        }
+      ]
+    },
+    {
+      "id": "1354835716647026748",
+      "name": "report",
+      "type": "Text Channel",
+      "parentId": "793744179519160360",
+      "parentName": "Channels",
+      "position": 22,
+      "permissionsSynced": false,
+      "overwrites": [
+        {
+          "id": "793744179066699787",
+          "targetType": "role",
+          "targetName": "@everyone",
+          "allow": [
+            "AddReactions",
+            "AttachFiles",
+            "CreateInstantInvite",
+            "ReadMessageHistory",
+            "UseApplicationCommands",
+            "UseExternalEmojis",
+            "UseExternalStickers",
+            "ViewChannel"
+          ],
+          "deny": [
+            "SendMessages",
+            "SendMessagesInThreads"
+          ],
+          "allowBitfield": "139586798657",
+          "denyBitfield": "274877908992"
+        },
+        {
+          "id": "1328685509555392603",
+          "targetType": "role",
+          "targetName": "Frau Lingua",
+          "allow": [
+            "AddReactions",
+            "AttachFiles",
+            "CreateEvents",
+            "EmbedLinks",
+            "ManageChannels",
+            "ManageEvents",
+            "ManageMessages",
+            "ManageRoles",
+            "ManageThreads",
+            "ReadMessageHistory",
+            "SendMessages",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "17618224409680",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1224754966363897916",
+          "targetType": "role",
+          "targetName": "Member",
+          "allow": [
+            "Connect",
+            "ReadMessageHistory",
+            "ViewChannel"
+          ],
+          "deny": [
+            "SendMessages"
+          ],
+          "allowBitfield": "1115136",
+          "denyBitfield": "2048"
+        },
+        {
+          "id": "852906005640642570",
+          "targetType": "role",
+          "targetName": "Moderator",
+          "allow": [
+            "Connect",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "1049600",
+          "denyBitfield": "0"
+        }
+      ]
+    },
+    {
+      "id": "1483470354008506378",
+      "name": "𝗦𝘁𝗮𝗳𝗳-𝗔𝗽𝗽𝗹𝘆",
+      "type": "Text Channel",
+      "parentId": "793744179519160360",
+      "parentName": "Channels",
+      "position": 23,
+      "permissionsSynced": false,
+      "overwrites": [
+        {
+          "id": "793744179066699787",
+          "targetType": "role",
+          "targetName": "@everyone",
+          "allow": [
+            "AddReactions",
+            "CreateInstantInvite",
+            "ReadMessageHistory",
+            "UseApplicationCommands",
+            "UseExternalEmojis"
+          ],
+          "deny": [
+            "AttachFiles",
+            "CreatePrivateThreads",
+            "CreatePublicThreads",
+            "SendMessages",
+            "SendMessagesInThreads",
+            "ViewChannel"
+          ],
+          "allowBitfield": "2147811393",
+          "denyBitfield": "377957157888"
+        },
+        {
+          "id": "1328685509555392603",
+          "targetType": "role",
+          "targetName": "Frau Lingua",
+          "allow": [
+            "AddReactions",
+            "AttachFiles",
+            "EmbedLinks",
+            "ManageChannels",
+            "ManageMessages",
+            "ManageRoles",
+            "ManageThreads",
+            "ReadMessageHistory",
+            "SendMessages",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "17448430672",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1463237212383744032",
+          "targetType": "role",
+          "targetName": "Herr Lounge",
+          "allow": [
+            "AddReactions",
+            "AttachFiles",
+            "BypassSlowmode",
+            "CreateInstantInvite",
+            "CreatePrivateThreads",
+            "CreatePublicThreads",
+            "EmbedLinks",
+            "ManageChannels",
+            "ManageMessages",
+            "ManageRoles",
+            "ManageThreads",
+            "ManageWebhooks",
+            "MentionEveryone",
+            "PinMessages",
+            "ReadMessageHistory",
+            "SendMessages",
+            "SendMessagesInThreads",
+            "SendPolls",
+            "SendTTSMessages",
+            "SendVoiceMessages",
+            "UseApplicationCommands",
+            "UseEmbeddedActivities",
+            "UseExternalApps",
+            "UseExternalEmojis",
+            "UseExternalStickers",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "8515703330569297",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1475063990777417829",
+          "targetType": "role",
+          "targetName": "Herr Lounge Creator",
+          "allow": [],
+          "deny": [
+            "ViewChannel"
+          ],
+          "allowBitfield": "0",
+          "denyBitfield": "1024"
+        },
+        {
+          "id": "1224754966363897916",
+          "targetType": "role",
+          "targetName": "Member",
+          "allow": [
+            "ReadMessageHistory"
+          ],
+          "deny": [
+            "CreatePrivateThreads",
+            "CreatePublicThreads",
+            "SendMessages",
+            "SendMessagesInThreads",
+            "ViewChannel"
+          ],
+          "allowBitfield": "65536",
+          "denyBitfield": "377957125120"
+        },
+        {
+          "id": "852906005640642570",
+          "targetType": "role",
+          "targetName": "Moderator",
+          "allow": [
+            "ReadMessageHistory"
+          ],
+          "deny": [
+            "ViewChannel"
+          ],
+          "allowBitfield": "65536",
+          "denyBitfield": "1024"
+        },
+        {
+          "id": "1271149172376211668",
+          "targetType": "role",
+          "targetName": "Regulars",
+          "allow": [
+            "AddReactions",
+            "ReadMessageHistory",
+            "UseApplicationCommands",
+            "UseExternalEmojis"
+          ],
+          "deny": [
+            "AttachFiles",
+            "BypassSlowmode",
+            "CreatePrivateThreads",
+            "CreatePublicThreads",
+            "EmbedLinks",
+            "ManageMessages",
+            "ManageThreads",
+            "MentionEveryone",
+            "PinMessages",
+            "SendMessages",
+            "SendMessagesInThreads",
+            "SendPolls",
+            "SendTTSMessages",
+            "SendVoiceMessages",
+            "UseEmbeddedActivities",
+            "UseExternalApps",
+            "UseExternalStickers",
+            "ViewChannel"
+          ],
+          "allowBitfield": "2147811392",
+          "denyBitfield": "8515700377451520"
+        }
+      ]
+    },
+    {
+      "id": "1445427458093482165",
+      "name": "german-resources",
+      "type": "Text Channel",
+      "parentId": "1286618460272594944",
+      "parentName": "German - Deutsch",
+      "position": 24,
+      "permissionsSynced": true,
+      "overwrites": [
+        {
+          "id": "793744179066699787",
+          "targetType": "role",
+          "targetName": "@everyone",
+          "allow": [],
+          "deny": [
+            "ViewChannel"
+          ],
+          "allowBitfield": "0",
+          "denyBitfield": "1024"
+        },
+        {
+          "id": "1328685509555392603",
+          "targetType": "role",
+          "targetName": "Frau Lingua",
+          "allow": [
+            "AddReactions",
+            "ManageChannels",
+            "ManageMessages",
+            "ManageRoles",
+            "ReadMessageHistory",
+            "SendMessages",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "268512336",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1225361583857860699",
+          "targetType": "role",
+          "targetName": "German",
+          "allow": [
+            "Connect",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "1049600",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1271105524359893128",
+          "targetType": "role",
+          "targetName": "German Native",
+          "allow": [
+            "AddReactions",
+            "AttachFiles",
+            "Connect",
+            "SendMessages",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "1084480",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1506904387610742844",
+          "targetType": "role",
+          "targetName": "Intern Moderator",
+          "allow": [
+            "ManageMessages",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "9216",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "870009158043303937",
+          "targetType": "member",
+          "targetName": "Jimmy",
+          "allow": [
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "1024",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "437808476106784770",
+          "targetType": "member",
+          "targetName": "Level Bot",
+          "allow": [],
+          "deny": [
+            "SendMessages"
+          ],
+          "allowBitfield": "0",
+          "denyBitfield": "2048"
+        },
+        {
+          "id": "1484645118697934952",
+          "targetType": "role",
+          "targetName": "Lingua Family",
+          "allow": [
+            "AddReactions",
+            "AttachFiles",
+            "BypassSlowmode",
+            "Connect",
+            "CreateEvents",
+            "CreateInstantInvite",
+            "CreatePrivateThreads",
+            "CreatePublicThreads",
+            "DeafenMembers",
+            "EmbedLinks",
+            "ManageChannels",
+            "ManageEvents",
+            "ManageMessages",
+            "ManageRoles",
+            "ManageThreads",
+            "ManageWebhooks",
+            "MentionEveryone",
+            "MoveMembers",
+            "MuteMembers",
+            "PinMessages",
+            "PrioritySpeaker",
+            "ReadMessageHistory",
+            "RequestToSpeak",
+            "SendMessages",
+            "SendMessagesInThreads",
+            "SendPolls",
+            "SendTTSMessages",
+            "SendVoiceMessages",
+            "Speak",
+            "Stream",
+            "UseApplicationCommands",
+            "UseEmbeddedActivities",
+            "UseExternalApps",
+            "UseExternalEmojis",
+            "UseExternalSounds",
+            "UseExternalStickers",
+            "UseSoundboard",
+            "UseVAD",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "8854365862887249",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "852906005640642570",
+          "targetType": "role",
+          "targetName": "Moderator",
+          "allow": [
+            "Connect",
+            "SendMessages",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "1051648",
+          "denyBitfield": "0"
+        }
+      ]
+    },
+    {
+      "id": "1225363050207514675",
+      "name": "german-chat",
+      "type": "Text Channel",
+      "parentId": "1286618460272594944",
+      "parentName": "German - Deutsch",
+      "position": 25,
+      "permissionsSynced": true,
+      "overwrites": [
+        {
+          "id": "793744179066699787",
+          "targetType": "role",
+          "targetName": "@everyone",
+          "allow": [],
+          "deny": [
+            "ViewChannel"
+          ],
+          "allowBitfield": "0",
+          "denyBitfield": "1024"
+        },
+        {
+          "id": "1328685509555392603",
+          "targetType": "role",
+          "targetName": "Frau Lingua",
+          "allow": [
+            "AddReactions",
+            "ManageChannels",
+            "ManageMessages",
+            "ManageRoles",
+            "ReadMessageHistory",
+            "SendMessages",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "268512336",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1225361583857860699",
+          "targetType": "role",
+          "targetName": "German",
+          "allow": [
+            "Connect",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "1049600",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1271105524359893128",
+          "targetType": "role",
+          "targetName": "German Native",
+          "allow": [
+            "AddReactions",
+            "AttachFiles",
+            "Connect",
+            "SendMessages",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "1084480",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1506904387610742844",
+          "targetType": "role",
+          "targetName": "Intern Moderator",
+          "allow": [
+            "ManageMessages",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "9216",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "870009158043303937",
+          "targetType": "member",
+          "targetName": "Jimmy",
+          "allow": [
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "1024",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "437808476106784770",
+          "targetType": "member",
+          "targetName": "Level Bot",
+          "allow": [],
+          "deny": [
+            "SendMessages"
+          ],
+          "allowBitfield": "0",
+          "denyBitfield": "2048"
+        },
+        {
+          "id": "1484645118697934952",
+          "targetType": "role",
+          "targetName": "Lingua Family",
+          "allow": [
+            "AddReactions",
+            "AttachFiles",
+            "BypassSlowmode",
+            "Connect",
+            "CreateEvents",
+            "CreateInstantInvite",
+            "CreatePrivateThreads",
+            "CreatePublicThreads",
+            "DeafenMembers",
+            "EmbedLinks",
+            "ManageChannels",
+            "ManageEvents",
+            "ManageMessages",
+            "ManageRoles",
+            "ManageThreads",
+            "ManageWebhooks",
+            "MentionEveryone",
+            "MoveMembers",
+            "MuteMembers",
+            "PinMessages",
+            "PrioritySpeaker",
+            "ReadMessageHistory",
+            "RequestToSpeak",
+            "SendMessages",
+            "SendMessagesInThreads",
+            "SendPolls",
+            "SendTTSMessages",
+            "SendVoiceMessages",
+            "Speak",
+            "Stream",
+            "UseApplicationCommands",
+            "UseEmbeddedActivities",
+            "UseExternalApps",
+            "UseExternalEmojis",
+            "UseExternalSounds",
+            "UseExternalStickers",
+            "UseSoundboard",
+            "UseVAD",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "8854365862887249",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "852906005640642570",
+          "targetType": "role",
+          "targetName": "Moderator",
+          "allow": [
+            "Connect",
+            "SendMessages",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "1051648",
+          "denyBitfield": "0"
+        }
+      ]
+    },
+    {
+      "id": "1444004978674110646",
+      "name": "french-resources",
+      "type": "Text Channel",
+      "parentId": "1286621424706129972",
+      "parentName": "French - Français",
+      "position": 26,
+      "permissionsSynced": true,
+      "overwrites": [
+        {
+          "id": "793744179066699787",
+          "targetType": "role",
+          "targetName": "@everyone",
+          "allow": [],
+          "deny": [
+            "Connect",
+            "ViewChannel"
+          ],
+          "allowBitfield": "0",
+          "denyBitfield": "1049600"
+        },
+        {
+          "id": "1328685509555392603",
+          "targetType": "role",
+          "targetName": "Frau Lingua",
+          "allow": [
+            "AddReactions",
+            "ManageChannels",
+            "ManageRoles",
+            "ManageThreads",
+            "ReadMessageHistory",
+            "SendMessages",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "17448373328",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1225361440869715979",
+          "targetType": "role",
+          "targetName": "French",
+          "allow": [
+            "Connect",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "1049600",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1277560168959184961",
+          "targetType": "role",
+          "targetName": "French Native",
+          "allow": [
+            "Connect",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "1049600",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1506904387610742844",
+          "targetType": "role",
+          "targetName": "Intern Moderator",
+          "allow": [
+            "ManageMessages",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "9216",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "870009158043303937",
+          "targetType": "member",
+          "targetName": "Jimmy",
+          "allow": [
+            "Connect",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "1049600",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "437808476106784770",
+          "targetType": "member",
+          "targetName": "Level Bot",
+          "allow": [],
+          "deny": [
+            "SendMessages"
+          ],
+          "allowBitfield": "0",
+          "denyBitfield": "2048"
+        },
+        {
+          "id": "1484645118697934952",
+          "targetType": "role",
+          "targetName": "Lingua Family",
+          "allow": [
+            "AddReactions",
+            "AttachFiles",
+            "BypassSlowmode",
+            "Connect",
+            "CreateEvents",
+            "CreateInstantInvite",
+            "CreatePrivateThreads",
+            "CreatePublicThreads",
+            "DeafenMembers",
+            "EmbedLinks",
+            "ManageChannels",
+            "ManageEvents",
+            "ManageMessages",
+            "ManageRoles",
+            "ManageThreads",
+            "ManageWebhooks",
+            "MentionEveryone",
+            "MoveMembers",
+            "MuteMembers",
+            "PinMessages",
+            "PrioritySpeaker",
+            "ReadMessageHistory",
+            "RequestToSpeak",
+            "SendMessages",
+            "SendMessagesInThreads",
+            "SendPolls",
+            "SendTTSMessages",
+            "SendVoiceMessages",
+            "Speak",
+            "Stream",
+            "UseApplicationCommands",
+            "UseEmbeddedActivities",
+            "UseExternalApps",
+            "UseExternalEmojis",
+            "UseExternalSounds",
+            "UseExternalStickers",
+            "UseSoundboard",
+            "UseVAD",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "8854365862887249",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "852906005640642570",
+          "targetType": "role",
+          "targetName": "Moderator",
+          "allow": [
+            "Connect",
+            "SendMessages",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "1051648",
+          "denyBitfield": "0"
+        }
+      ]
+    },
+    {
+      "id": "1225362787581296640",
+      "name": "french-chat",
+      "type": "Text Channel",
+      "parentId": "1286621424706129972",
+      "parentName": "French - Français",
+      "position": 27,
+      "permissionsSynced": true,
+      "overwrites": [
+        {
+          "id": "793744179066699787",
+          "targetType": "role",
+          "targetName": "@everyone",
+          "allow": [],
+          "deny": [
+            "Connect",
+            "ViewChannel"
+          ],
+          "allowBitfield": "0",
+          "denyBitfield": "1049600"
+        },
+        {
+          "id": "1328685509555392603",
+          "targetType": "role",
+          "targetName": "Frau Lingua",
+          "allow": [
+            "AddReactions",
+            "ManageChannels",
+            "ManageRoles",
+            "ManageThreads",
+            "ReadMessageHistory",
+            "SendMessages",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "17448373328",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1225361440869715979",
+          "targetType": "role",
+          "targetName": "French",
+          "allow": [
+            "Connect",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "1049600",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1277560168959184961",
+          "targetType": "role",
+          "targetName": "French Native",
+          "allow": [
+            "Connect",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "1049600",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1506904387610742844",
+          "targetType": "role",
+          "targetName": "Intern Moderator",
+          "allow": [
+            "ManageMessages",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "9216",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "870009158043303937",
+          "targetType": "member",
+          "targetName": "Jimmy",
+          "allow": [
+            "Connect",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "1049600",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "437808476106784770",
+          "targetType": "member",
+          "targetName": "Level Bot",
+          "allow": [],
+          "deny": [
+            "SendMessages"
+          ],
+          "allowBitfield": "0",
+          "denyBitfield": "2048"
+        },
+        {
+          "id": "1484645118697934952",
+          "targetType": "role",
+          "targetName": "Lingua Family",
+          "allow": [
+            "AddReactions",
+            "AttachFiles",
+            "BypassSlowmode",
+            "Connect",
+            "CreateEvents",
+            "CreateInstantInvite",
+            "CreatePrivateThreads",
+            "CreatePublicThreads",
+            "DeafenMembers",
+            "EmbedLinks",
+            "ManageChannels",
+            "ManageEvents",
+            "ManageMessages",
+            "ManageRoles",
+            "ManageThreads",
+            "ManageWebhooks",
+            "MentionEveryone",
+            "MoveMembers",
+            "MuteMembers",
+            "PinMessages",
+            "PrioritySpeaker",
+            "ReadMessageHistory",
+            "RequestToSpeak",
+            "SendMessages",
+            "SendMessagesInThreads",
+            "SendPolls",
+            "SendTTSMessages",
+            "SendVoiceMessages",
+            "Speak",
+            "Stream",
+            "UseApplicationCommands",
+            "UseEmbeddedActivities",
+            "UseExternalApps",
+            "UseExternalEmojis",
+            "UseExternalSounds",
+            "UseExternalStickers",
+            "UseSoundboard",
+            "UseVAD",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "8854365862887249",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "852906005640642570",
+          "targetType": "role",
+          "targetName": "Moderator",
+          "allow": [
+            "Connect",
+            "SendMessages",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "1051648",
+          "denyBitfield": "0"
+        }
+      ]
+    },
+    {
+      "id": "1444005138820763658",
+      "name": "russian-resources",
+      "type": "Text Channel",
+      "parentId": "1303664278116765706",
+      "parentName": "Russian - русский",
+      "position": 28,
+      "permissionsSynced": true,
+      "overwrites": [
+        {
+          "id": "793744179066699787",
+          "targetType": "role",
+          "targetName": "@everyone",
+          "allow": [],
+          "deny": [
+            "ViewChannel"
+          ],
+          "allowBitfield": "0",
+          "denyBitfield": "1024"
+        },
+        {
+          "id": "1328685509555392603",
+          "targetType": "role",
+          "targetName": "Frau Lingua",
+          "allow": [
+            "AddReactions",
+            "ManageChannels",
+            "ManageMessages",
+            "ManageRoles",
+            "ReadMessageHistory",
+            "SendMessages",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "268512336",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1506904387610742844",
+          "targetType": "role",
+          "targetName": "Intern Moderator",
+          "allow": [
+            "ManageMessages",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "9216",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "437808476106784770",
+          "targetType": "member",
+          "targetName": "Level Bot",
+          "allow": [],
+          "deny": [
+            "SendMessages"
+          ],
+          "allowBitfield": "0",
+          "denyBitfield": "2048"
+        },
+        {
+          "id": "1484645118697934952",
+          "targetType": "role",
+          "targetName": "Lingua Family",
+          "allow": [
+            "AddReactions",
+            "AttachFiles",
+            "BypassSlowmode",
+            "Connect",
+            "CreateEvents",
+            "CreateInstantInvite",
+            "CreatePrivateThreads",
+            "CreatePublicThreads",
+            "DeafenMembers",
+            "EmbedLinks",
+            "ManageChannels",
+            "ManageEvents",
+            "ManageMessages",
+            "ManageRoles",
+            "ManageThreads",
+            "ManageWebhooks",
+            "MentionEveryone",
+            "MoveMembers",
+            "MuteMembers",
+            "PinMessages",
+            "PrioritySpeaker",
+            "ReadMessageHistory",
+            "RequestToSpeak",
+            "SendMessages",
+            "SendMessagesInThreads",
+            "SendPolls",
+            "SendTTSMessages",
+            "SendVoiceMessages",
+            "Speak",
+            "Stream",
+            "UseApplicationCommands",
+            "UseEmbeddedActivities",
+            "UseExternalApps",
+            "UseExternalEmojis",
+            "UseExternalSounds",
+            "UseExternalStickers",
+            "UseSoundboard",
+            "UseVAD",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "8854365862887249",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "852906005640642570",
+          "targetType": "role",
+          "targetName": "Moderator",
+          "allow": [
+            "Connect",
+            "SendMessages",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "1051648",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1303662239986876447",
+          "targetType": "role",
+          "targetName": "Russian",
+          "allow": [
+            "Connect",
+            "SendMessages",
+            "Speak",
+            "UseSoundboard",
+            "UseVAD",
+            "ViewChannel"
+          ],
+          "deny": [
+            "ManageChannels"
+          ],
+          "allowBitfield": "4398083214336",
+          "denyBitfield": "16"
+        },
+        {
+          "id": "1303662494367092736",
+          "targetType": "role",
+          "targetName": "Russian Native",
+          "allow": [
+            "Connect",
+            "SendMessages",
+            "Speak",
+            "UseVAD",
+            "ViewChannel"
+          ],
+          "deny": [
+            "ManageChannels"
+          ],
+          "allowBitfield": "36703232",
+          "denyBitfield": "16"
+        }
+      ]
+    },
+    {
+      "id": "1303664003444379649",
+      "name": "russian-chat",
+      "type": "Text Channel",
+      "parentId": "1303664278116765706",
+      "parentName": "Russian - русский",
+      "position": 29,
+      "permissionsSynced": true,
+      "overwrites": [
+        {
+          "id": "793744179066699787",
+          "targetType": "role",
+          "targetName": "@everyone",
+          "allow": [],
+          "deny": [
+            "ViewChannel"
+          ],
+          "allowBitfield": "0",
+          "denyBitfield": "1024"
+        },
+        {
+          "id": "1328685509555392603",
+          "targetType": "role",
+          "targetName": "Frau Lingua",
+          "allow": [
+            "AddReactions",
+            "ManageChannels",
+            "ManageMessages",
+            "ManageRoles",
+            "ReadMessageHistory",
+            "SendMessages",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "268512336",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1506904387610742844",
+          "targetType": "role",
+          "targetName": "Intern Moderator",
+          "allow": [
+            "ManageMessages",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "9216",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "437808476106784770",
+          "targetType": "member",
+          "targetName": "Level Bot",
+          "allow": [],
+          "deny": [
+            "SendMessages"
+          ],
+          "allowBitfield": "0",
+          "denyBitfield": "2048"
+        },
+        {
+          "id": "1484645118697934952",
+          "targetType": "role",
+          "targetName": "Lingua Family",
+          "allow": [
+            "AddReactions",
+            "AttachFiles",
+            "BypassSlowmode",
+            "Connect",
+            "CreateEvents",
+            "CreateInstantInvite",
+            "CreatePrivateThreads",
+            "CreatePublicThreads",
+            "DeafenMembers",
+            "EmbedLinks",
+            "ManageChannels",
+            "ManageEvents",
+            "ManageMessages",
+            "ManageRoles",
+            "ManageThreads",
+            "ManageWebhooks",
+            "MentionEveryone",
+            "MoveMembers",
+            "MuteMembers",
+            "PinMessages",
+            "PrioritySpeaker",
+            "ReadMessageHistory",
+            "RequestToSpeak",
+            "SendMessages",
+            "SendMessagesInThreads",
+            "SendPolls",
+            "SendTTSMessages",
+            "SendVoiceMessages",
+            "Speak",
+            "Stream",
+            "UseApplicationCommands",
+            "UseEmbeddedActivities",
+            "UseExternalApps",
+            "UseExternalEmojis",
+            "UseExternalSounds",
+            "UseExternalStickers",
+            "UseSoundboard",
+            "UseVAD",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "8854365862887249",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "852906005640642570",
+          "targetType": "role",
+          "targetName": "Moderator",
+          "allow": [
+            "Connect",
+            "SendMessages",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "1051648",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1303662239986876447",
+          "targetType": "role",
+          "targetName": "Russian",
+          "allow": [
+            "Connect",
+            "SendMessages",
+            "Speak",
+            "UseSoundboard",
+            "UseVAD",
+            "ViewChannel"
+          ],
+          "deny": [
+            "ManageChannels"
+          ],
+          "allowBitfield": "4398083214336",
+          "denyBitfield": "16"
+        },
+        {
+          "id": "1303662494367092736",
+          "targetType": "role",
+          "targetName": "Russian Native",
+          "allow": [
+            "Connect",
+            "SendMessages",
+            "Speak",
+            "UseVAD",
+            "ViewChannel"
+          ],
+          "deny": [
+            "ManageChannels"
+          ],
+          "allowBitfield": "36703232",
+          "denyBitfield": "16"
+        }
+      ]
+    },
+    {
+      "id": "1504477047047716927",
+      "name": "spanish-resources",
+      "type": "Text Channel",
+      "parentId": "1504476845742100622",
+      "parentName": "Spanish - Español",
+      "position": 30,
+      "permissionsSynced": true,
+      "overwrites": [
+        {
+          "id": "793744179066699787",
+          "targetType": "role",
+          "targetName": "@everyone",
+          "allow": [],
+          "deny": [
+            "Connect",
+            "ViewChannel"
+          ],
+          "allowBitfield": "0",
+          "denyBitfield": "1049600"
+        },
+        {
+          "id": "1506904387610742844",
+          "targetType": "role",
+          "targetName": "Intern Moderator",
+          "allow": [
+            "ManageMessages",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "9216",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "437808476106784770",
+          "targetType": "member",
+          "targetName": "Level Bot",
+          "allow": [],
+          "deny": [
+            "SendMessages"
+          ],
+          "allowBitfield": "0",
+          "denyBitfield": "2048"
+        },
+        {
+          "id": "1484645118697934952",
+          "targetType": "role",
+          "targetName": "Lingua Family",
+          "allow": [
+            "AddReactions",
+            "AttachFiles",
+            "BypassSlowmode",
+            "Connect",
+            "CreateEvents",
+            "CreateInstantInvite",
+            "CreatePrivateThreads",
+            "CreatePublicThreads",
+            "DeafenMembers",
+            "EmbedLinks",
+            "ManageChannels",
+            "ManageEvents",
+            "ManageMessages",
+            "ManageRoles",
+            "ManageThreads",
+            "ManageWebhooks",
+            "MentionEveryone",
+            "MoveMembers",
+            "MuteMembers",
+            "PinMessages",
+            "PrioritySpeaker",
+            "ReadMessageHistory",
+            "RequestToSpeak",
+            "SendMessages",
+            "SendMessagesInThreads",
+            "SendPolls",
+            "SendTTSMessages",
+            "SendVoiceMessages",
+            "Speak",
+            "Stream",
+            "UseApplicationCommands",
+            "UseEmbeddedActivities",
+            "UseExternalApps",
+            "UseExternalEmojis",
+            "UseExternalSounds",
+            "UseExternalStickers",
+            "UseSoundboard",
+            "UseVAD",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "8854365862887249",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "852906005640642570",
+          "targetType": "role",
+          "targetName": "Moderator",
+          "allow": [
+            "Connect",
+            "ReadMessageHistory",
+            "SendMessages",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "1117184",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1504513976006869043",
+          "targetType": "role",
+          "targetName": "Spanish",
+          "allow": [
+            "Connect",
+            "ReadMessageHistory",
+            "SendMessages",
+            "Speak",
+            "Stream",
+            "UseSoundboard",
+            "UseVAD",
+            "ViewChannel"
+          ],
+          "deny": [
+            "ManageChannels"
+          ],
+          "allowBitfield": "4398083280384",
+          "denyBitfield": "16"
+        },
+        {
+          "id": "1504513612788662382",
+          "targetType": "role",
+          "targetName": "Spanish Native",
+          "allow": [
+            "Connect",
+            "ReadMessageHistory",
+            "SendMessages",
+            "SendVoiceMessages",
+            "Speak",
+            "Stream",
+            "UseSoundboard",
+            "UseVAD",
+            "ViewChannel"
+          ],
+          "deny": [
+            "ManageChannels"
+          ],
+          "allowBitfield": "74766827458048",
+          "denyBitfield": "16"
+        }
+      ]
+    },
+    {
+      "id": "1504477136608694302",
+      "name": "spanish-chat",
+      "type": "Text Channel",
+      "parentId": "1504476845742100622",
+      "parentName": "Spanish - Español",
+      "position": 31,
+      "permissionsSynced": true,
+      "overwrites": [
+        {
+          "id": "793744179066699787",
+          "targetType": "role",
+          "targetName": "@everyone",
+          "allow": [],
+          "deny": [
+            "Connect",
+            "ViewChannel"
+          ],
+          "allowBitfield": "0",
+          "denyBitfield": "1049600"
+        },
+        {
+          "id": "1506904387610742844",
+          "targetType": "role",
+          "targetName": "Intern Moderator",
+          "allow": [
+            "ManageMessages",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "9216",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "437808476106784770",
+          "targetType": "member",
+          "targetName": "Level Bot",
+          "allow": [],
+          "deny": [
+            "SendMessages"
+          ],
+          "allowBitfield": "0",
+          "denyBitfield": "2048"
+        },
+        {
+          "id": "1484645118697934952",
+          "targetType": "role",
+          "targetName": "Lingua Family",
+          "allow": [
+            "AddReactions",
+            "AttachFiles",
+            "BypassSlowmode",
+            "Connect",
+            "CreateEvents",
+            "CreateInstantInvite",
+            "CreatePrivateThreads",
+            "CreatePublicThreads",
+            "DeafenMembers",
+            "EmbedLinks",
+            "ManageChannels",
+            "ManageEvents",
+            "ManageMessages",
+            "ManageRoles",
+            "ManageThreads",
+            "ManageWebhooks",
+            "MentionEveryone",
+            "MoveMembers",
+            "MuteMembers",
+            "PinMessages",
+            "PrioritySpeaker",
+            "ReadMessageHistory",
+            "RequestToSpeak",
+            "SendMessages",
+            "SendMessagesInThreads",
+            "SendPolls",
+            "SendTTSMessages",
+            "SendVoiceMessages",
+            "Speak",
+            "Stream",
+            "UseApplicationCommands",
+            "UseEmbeddedActivities",
+            "UseExternalApps",
+            "UseExternalEmojis",
+            "UseExternalSounds",
+            "UseExternalStickers",
+            "UseSoundboard",
+            "UseVAD",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "8854365862887249",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "852906005640642570",
+          "targetType": "role",
+          "targetName": "Moderator",
+          "allow": [
+            "Connect",
+            "ReadMessageHistory",
+            "SendMessages",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "1117184",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1504513976006869043",
+          "targetType": "role",
+          "targetName": "Spanish",
+          "allow": [
+            "Connect",
+            "ReadMessageHistory",
+            "SendMessages",
+            "Speak",
+            "Stream",
+            "UseSoundboard",
+            "UseVAD",
+            "ViewChannel"
+          ],
+          "deny": [
+            "ManageChannels"
+          ],
+          "allowBitfield": "4398083280384",
+          "denyBitfield": "16"
+        },
+        {
+          "id": "1504513612788662382",
+          "targetType": "role",
+          "targetName": "Spanish Native",
+          "allow": [
+            "Connect",
+            "ReadMessageHistory",
+            "SendMessages",
+            "SendVoiceMessages",
+            "Speak",
+            "Stream",
+            "UseSoundboard",
+            "UseVAD",
+            "ViewChannel"
+          ],
+          "deny": [
+            "ManageChannels"
+          ],
+          "allowBitfield": "74766827458048",
+          "denyBitfield": "16"
+        }
+      ]
+    },
+    {
+      "id": "1505506765377241118",
+      "name": "ukrainian-resources",
+      "type": "Text Channel",
+      "parentId": "1505505610672898180",
+      "parentName": "Ukrainian - Українська",
+      "position": 32,
+      "permissionsSynced": true,
+      "overwrites": [
+        {
+          "id": "793744179066699787",
+          "targetType": "role",
+          "targetName": "@everyone",
+          "allow": [],
+          "deny": [
+            "Connect",
+            "ViewChannel"
+          ],
+          "allowBitfield": "0",
+          "denyBitfield": "1049600"
+        },
+        {
+          "id": "1506904387610742844",
+          "targetType": "role",
+          "targetName": "Intern Moderator",
+          "allow": [
+            "ManageMessages",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "9216",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "437808476106784770",
+          "targetType": "member",
+          "targetName": "Level Bot",
+          "allow": [
+            "SendMessages"
+          ],
+          "deny": [],
+          "allowBitfield": "2048",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1484645118697934952",
+          "targetType": "role",
+          "targetName": "Lingua Family",
+          "allow": [
+            "AddReactions",
+            "AttachFiles",
+            "BypassSlowmode",
+            "Connect",
+            "CreateEvents",
+            "CreateInstantInvite",
+            "CreatePrivateThreads",
+            "CreatePublicThreads",
+            "DeafenMembers",
+            "EmbedLinks",
+            "ManageChannels",
+            "ManageEvents",
+            "ManageMessages",
+            "ManageRoles",
+            "ManageThreads",
+            "ManageWebhooks",
+            "MentionEveryone",
+            "MoveMembers",
+            "MuteMembers",
+            "PinMessages",
+            "PrioritySpeaker",
+            "ReadMessageHistory",
+            "RequestToSpeak",
+            "SendMessages",
+            "SendMessagesInThreads",
+            "SendPolls",
+            "SendTTSMessages",
+            "SendVoiceMessages",
+            "Speak",
+            "Stream",
+            "UseApplicationCommands",
+            "UseEmbeddedActivities",
+            "UseExternalApps",
+            "UseExternalEmojis",
+            "UseExternalSounds",
+            "UseExternalStickers",
+            "UseSoundboard",
+            "UseVAD",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "8854365862887249",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "852906005640642570",
+          "targetType": "role",
+          "targetName": "Moderator",
+          "allow": [
+            "Connect",
+            "ReadMessageHistory",
+            "SendMessages",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "1117184",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1505522035550457886",
+          "targetType": "role",
+          "targetName": "Ukrainian",
+          "allow": [
+            "Connect",
+            "ReadMessageHistory",
+            "SendMessages",
+            "SendVoiceMessages",
+            "Speak",
+            "Stream",
+            "UseSoundboard",
+            "UseVAD",
+            "ViewChannel"
+          ],
+          "deny": [
+            "ManageChannels"
+          ],
+          "allowBitfield": "74766827458048",
+          "denyBitfield": "16"
+        },
+        {
+          "id": "1505521439347048479",
+          "targetType": "role",
+          "targetName": "Ukrainian Native",
+          "allow": [
+            "Connect",
+            "ReadMessageHistory",
+            "SendMessages",
+            "SendVoiceMessages",
+            "Speak",
+            "Stream",
+            "UseSoundboard",
+            "UseVAD",
+            "ViewChannel"
+          ],
+          "deny": [
+            "ManageChannels"
+          ],
+          "allowBitfield": "74766827458048",
+          "denyBitfield": "16"
+        }
+      ]
+    },
+    {
+      "id": "1505506844184018995",
+      "name": "ukrainian-chat",
+      "type": "Text Channel",
+      "parentId": "1505505610672898180",
+      "parentName": "Ukrainian - Українська",
+      "position": 33,
+      "permissionsSynced": true,
+      "overwrites": [
+        {
+          "id": "793744179066699787",
+          "targetType": "role",
+          "targetName": "@everyone",
+          "allow": [],
+          "deny": [
+            "Connect",
+            "ViewChannel"
+          ],
+          "allowBitfield": "0",
+          "denyBitfield": "1049600"
+        },
+        {
+          "id": "1506904387610742844",
+          "targetType": "role",
+          "targetName": "Intern Moderator",
+          "allow": [
+            "ManageMessages",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "9216",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "437808476106784770",
+          "targetType": "member",
+          "targetName": "Level Bot",
+          "allow": [
+            "SendMessages"
+          ],
+          "deny": [],
+          "allowBitfield": "2048",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1484645118697934952",
+          "targetType": "role",
+          "targetName": "Lingua Family",
+          "allow": [
+            "AddReactions",
+            "AttachFiles",
+            "BypassSlowmode",
+            "Connect",
+            "CreateEvents",
+            "CreateInstantInvite",
+            "CreatePrivateThreads",
+            "CreatePublicThreads",
+            "DeafenMembers",
+            "EmbedLinks",
+            "ManageChannels",
+            "ManageEvents",
+            "ManageMessages",
+            "ManageRoles",
+            "ManageThreads",
+            "ManageWebhooks",
+            "MentionEveryone",
+            "MoveMembers",
+            "MuteMembers",
+            "PinMessages",
+            "PrioritySpeaker",
+            "ReadMessageHistory",
+            "RequestToSpeak",
+            "SendMessages",
+            "SendMessagesInThreads",
+            "SendPolls",
+            "SendTTSMessages",
+            "SendVoiceMessages",
+            "Speak",
+            "Stream",
+            "UseApplicationCommands",
+            "UseEmbeddedActivities",
+            "UseExternalApps",
+            "UseExternalEmojis",
+            "UseExternalSounds",
+            "UseExternalStickers",
+            "UseSoundboard",
+            "UseVAD",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "8854365862887249",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "852906005640642570",
+          "targetType": "role",
+          "targetName": "Moderator",
+          "allow": [
+            "Connect",
+            "ReadMessageHistory",
+            "SendMessages",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "1117184",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1505522035550457886",
+          "targetType": "role",
+          "targetName": "Ukrainian",
+          "allow": [
+            "Connect",
+            "ReadMessageHistory",
+            "SendMessages",
+            "SendVoiceMessages",
+            "Speak",
+            "Stream",
+            "UseSoundboard",
+            "UseVAD",
+            "ViewChannel"
+          ],
+          "deny": [
+            "ManageChannels"
+          ],
+          "allowBitfield": "74766827458048",
+          "denyBitfield": "16"
+        },
+        {
+          "id": "1505521439347048479",
+          "targetType": "role",
+          "targetName": "Ukrainian Native",
+          "allow": [
+            "Connect",
+            "ReadMessageHistory",
+            "SendMessages",
+            "SendVoiceMessages",
+            "Speak",
+            "Stream",
+            "UseSoundboard",
+            "UseVAD",
+            "ViewChannel"
+          ],
+          "deny": [
+            "ManageChannels"
+          ],
+          "allowBitfield": "74766827458048",
+          "denyBitfield": "16"
+        }
+      ]
+    },
+    {
+      "id": "1505507982329254018",
+      "name": "italian-resources",
+      "type": "Text Channel",
+      "parentId": "1505507890180653086",
+      "parentName": "Italian - Italiano",
+      "position": 34,
+      "permissionsSynced": true,
+      "overwrites": [
+        {
+          "id": "793744179066699787",
+          "targetType": "role",
+          "targetName": "@everyone",
+          "allow": [],
+          "deny": [
+            "Connect",
+            "ViewChannel"
+          ],
+          "allowBitfield": "0",
+          "denyBitfield": "1049600"
+        },
+        {
+          "id": "1506904387610742844",
+          "targetType": "role",
+          "targetName": "Intern Moderator",
+          "allow": [
+            "AddReactions",
+            "ManageMessages",
+            "SendMessages",
+            "SendMessagesInThreads",
+            "UseExternalEmojis",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "274878180416",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1505522111282679868",
+          "targetType": "role",
+          "targetName": "Italian",
+          "allow": [
+            "Connect",
+            "ReadMessageHistory",
+            "SendMessages",
+            "SendVoiceMessages",
+            "Speak",
+            "Stream",
+            "UseSoundboard",
+            "UseVAD",
+            "ViewChannel"
+          ],
+          "deny": [
+            "ManageChannels"
+          ],
+          "allowBitfield": "74766827458048",
+          "denyBitfield": "16"
+        },
+        {
+          "id": "1505521632259604561",
+          "targetType": "role",
+          "targetName": "Italian Native",
+          "allow": [
+            "Connect",
+            "ReadMessageHistory",
+            "SendMessages",
+            "SendVoiceMessages",
+            "Speak",
+            "Stream",
+            "UseSoundboard",
+            "UseVAD",
+            "ViewChannel"
+          ],
+          "deny": [
+            "ManageChannels"
+          ],
+          "allowBitfield": "74766827458048",
+          "denyBitfield": "16"
+        },
+        {
+          "id": "437808476106784770",
+          "targetType": "member",
+          "targetName": "Level Bot",
+          "allow": [],
+          "deny": [
+            "SendMessages"
+          ],
+          "allowBitfield": "0",
+          "denyBitfield": "2048"
+        },
+        {
+          "id": "1484645118697934952",
+          "targetType": "role",
+          "targetName": "Lingua Family",
+          "allow": [
+            "AddReactions",
+            "AttachFiles",
+            "BypassSlowmode",
+            "Connect",
+            "CreateEvents",
+            "CreateInstantInvite",
+            "CreatePrivateThreads",
+            "CreatePublicThreads",
+            "DeafenMembers",
+            "EmbedLinks",
+            "ManageChannels",
+            "ManageEvents",
+            "ManageMessages",
+            "ManageRoles",
+            "ManageThreads",
+            "ManageWebhooks",
+            "MentionEveryone",
+            "MoveMembers",
+            "MuteMembers",
+            "PinMessages",
+            "PrioritySpeaker",
+            "ReadMessageHistory",
+            "RequestToSpeak",
+            "SendMessages",
+            "SendMessagesInThreads",
+            "SendPolls",
+            "SendTTSMessages",
+            "SendVoiceMessages",
+            "Speak",
+            "Stream",
+            "UseApplicationCommands",
+            "UseEmbeddedActivities",
+            "UseExternalApps",
+            "UseExternalEmojis",
+            "UseExternalSounds",
+            "UseExternalStickers",
+            "UseSoundboard",
+            "UseVAD",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "8854365862887249",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "852906005640642570",
+          "targetType": "role",
+          "targetName": "Moderator",
+          "allow": [
+            "Connect",
+            "ReadMessageHistory",
+            "SendMessages",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "1117184",
+          "denyBitfield": "0"
+        }
+      ]
+    },
+    {
+      "id": "1505508025652350977",
+      "name": "italian-chat",
+      "type": "Text Channel",
+      "parentId": "1505507890180653086",
+      "parentName": "Italian - Italiano",
+      "position": 35,
+      "permissionsSynced": true,
+      "overwrites": [
+        {
+          "id": "793744179066699787",
+          "targetType": "role",
+          "targetName": "@everyone",
+          "allow": [],
+          "deny": [
+            "Connect",
+            "ViewChannel"
+          ],
+          "allowBitfield": "0",
+          "denyBitfield": "1049600"
+        },
+        {
+          "id": "1506904387610742844",
+          "targetType": "role",
+          "targetName": "Intern Moderator",
+          "allow": [
+            "AddReactions",
+            "ManageMessages",
+            "SendMessages",
+            "SendMessagesInThreads",
+            "UseExternalEmojis",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "274878180416",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1505522111282679868",
+          "targetType": "role",
+          "targetName": "Italian",
+          "allow": [
+            "Connect",
+            "ReadMessageHistory",
+            "SendMessages",
+            "SendVoiceMessages",
+            "Speak",
+            "Stream",
+            "UseSoundboard",
+            "UseVAD",
+            "ViewChannel"
+          ],
+          "deny": [
+            "ManageChannels"
+          ],
+          "allowBitfield": "74766827458048",
+          "denyBitfield": "16"
+        },
+        {
+          "id": "1505521632259604561",
+          "targetType": "role",
+          "targetName": "Italian Native",
+          "allow": [
+            "Connect",
+            "ReadMessageHistory",
+            "SendMessages",
+            "SendVoiceMessages",
+            "Speak",
+            "Stream",
+            "UseSoundboard",
+            "UseVAD",
+            "ViewChannel"
+          ],
+          "deny": [
+            "ManageChannels"
+          ],
+          "allowBitfield": "74766827458048",
+          "denyBitfield": "16"
+        },
+        {
+          "id": "437808476106784770",
+          "targetType": "member",
+          "targetName": "Level Bot",
+          "allow": [],
+          "deny": [
+            "SendMessages"
+          ],
+          "allowBitfield": "0",
+          "denyBitfield": "2048"
+        },
+        {
+          "id": "1484645118697934952",
+          "targetType": "role",
+          "targetName": "Lingua Family",
+          "allow": [
+            "AddReactions",
+            "AttachFiles",
+            "BypassSlowmode",
+            "Connect",
+            "CreateEvents",
+            "CreateInstantInvite",
+            "CreatePrivateThreads",
+            "CreatePublicThreads",
+            "DeafenMembers",
+            "EmbedLinks",
+            "ManageChannels",
+            "ManageEvents",
+            "ManageMessages",
+            "ManageRoles",
+            "ManageThreads",
+            "ManageWebhooks",
+            "MentionEveryone",
+            "MoveMembers",
+            "MuteMembers",
+            "PinMessages",
+            "PrioritySpeaker",
+            "ReadMessageHistory",
+            "RequestToSpeak",
+            "SendMessages",
+            "SendMessagesInThreads",
+            "SendPolls",
+            "SendTTSMessages",
+            "SendVoiceMessages",
+            "Speak",
+            "Stream",
+            "UseApplicationCommands",
+            "UseEmbeddedActivities",
+            "UseExternalApps",
+            "UseExternalEmojis",
+            "UseExternalSounds",
+            "UseExternalStickers",
+            "UseSoundboard",
+            "UseVAD",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "8854365862887249",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "852906005640642570",
+          "targetType": "role",
+          "targetName": "Moderator",
+          "allow": [
+            "Connect",
+            "ReadMessageHistory",
+            "SendMessages",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "1117184",
+          "denyBitfield": "0"
+        }
+      ]
+    },
+    {
+      "id": "1505508441203146923",
+      "name": "polish-resources",
+      "type": "Text Channel",
+      "parentId": "1505508374718976000",
+      "parentName": "Polish - Polski",
+      "position": 36,
+      "permissionsSynced": true,
+      "overwrites": [
+        {
+          "id": "793744179066699787",
+          "targetType": "role",
+          "targetName": "@everyone",
+          "allow": [],
+          "deny": [
+            "Connect",
+            "ViewChannel"
+          ],
+          "allowBitfield": "0",
+          "denyBitfield": "1049600"
+        },
+        {
+          "id": "1506904387610742844",
+          "targetType": "role",
+          "targetName": "Intern Moderator",
+          "allow": [
+            "AddReactions",
+            "AttachFiles",
+            "EmbedLinks",
+            "ManageMessages",
+            "ReadMessageHistory",
+            "SendMessages",
+            "SendMessagesInThreads",
+            "UseExternalEmojis",
+            "UseExternalStickers",
+            "ViewChannel"
+          ],
+          "deny": [
+            "MentionEveryone"
+          ],
+          "allowBitfield": "412317248576",
+          "denyBitfield": "131072"
+        },
+        {
+          "id": "437808476106784770",
+          "targetType": "member",
+          "targetName": "Level Bot",
+          "allow": [],
+          "deny": [
+            "SendMessages"
+          ],
+          "allowBitfield": "0",
+          "denyBitfield": "2048"
+        },
+        {
+          "id": "1484645118697934952",
+          "targetType": "role",
+          "targetName": "Lingua Family",
+          "allow": [
+            "AddReactions",
+            "AttachFiles",
+            "BypassSlowmode",
+            "Connect",
+            "CreateEvents",
+            "CreateInstantInvite",
+            "CreatePrivateThreads",
+            "CreatePublicThreads",
+            "DeafenMembers",
+            "EmbedLinks",
+            "ManageChannels",
+            "ManageEvents",
+            "ManageMessages",
+            "ManageRoles",
+            "ManageThreads",
+            "ManageWebhooks",
+            "MentionEveryone",
+            "MoveMembers",
+            "MuteMembers",
+            "PinMessages",
+            "PrioritySpeaker",
+            "ReadMessageHistory",
+            "RequestToSpeak",
+            "SendMessages",
+            "SendMessagesInThreads",
+            "SendPolls",
+            "SendTTSMessages",
+            "SendVoiceMessages",
+            "Speak",
+            "Stream",
+            "UseApplicationCommands",
+            "UseEmbeddedActivities",
+            "UseExternalApps",
+            "UseExternalEmojis",
+            "UseExternalSounds",
+            "UseExternalStickers",
+            "UseSoundboard",
+            "UseVAD",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "8854365862887249",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "852906005640642570",
+          "targetType": "role",
+          "targetName": "Moderator",
+          "allow": [
+            "ReadMessageHistory",
+            "SendMessages",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "68608",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1505522302010527834",
+          "targetType": "role",
+          "targetName": "Polish",
+          "allow": [
+            "Connect",
+            "ReadMessageHistory",
+            "SendMessages",
+            "SendVoiceMessages",
+            "Speak",
+            "Stream",
+            "UseSoundboard",
+            "UseVAD",
+            "ViewChannel"
+          ],
+          "deny": [
+            "ManageChannels"
+          ],
+          "allowBitfield": "74766827458048",
+          "denyBitfield": "16"
+        },
+        {
+          "id": "1505521841878470716",
+          "targetType": "role",
+          "targetName": "Polish Native",
+          "allow": [
+            "Connect",
+            "ReadMessageHistory",
+            "SendMessages",
+            "SendVoiceMessages",
+            "Speak",
+            "Stream",
+            "UseSoundboard",
+            "UseVAD",
+            "ViewChannel"
+          ],
+          "deny": [
+            "ManageChannels"
+          ],
+          "allowBitfield": "74766827458048",
+          "denyBitfield": "16"
+        }
+      ]
+    },
+    {
+      "id": "1505508475936051210",
+      "name": "polish-chat",
+      "type": "Text Channel",
+      "parentId": "1505508374718976000",
+      "parentName": "Polish - Polski",
+      "position": 37,
+      "permissionsSynced": true,
+      "overwrites": [
+        {
+          "id": "793744179066699787",
+          "targetType": "role",
+          "targetName": "@everyone",
+          "allow": [],
+          "deny": [
+            "Connect",
+            "ViewChannel"
+          ],
+          "allowBitfield": "0",
+          "denyBitfield": "1049600"
+        },
+        {
+          "id": "1506904387610742844",
+          "targetType": "role",
+          "targetName": "Intern Moderator",
+          "allow": [
+            "AddReactions",
+            "AttachFiles",
+            "EmbedLinks",
+            "ManageMessages",
+            "ReadMessageHistory",
+            "SendMessages",
+            "SendMessagesInThreads",
+            "UseExternalEmojis",
+            "UseExternalStickers",
+            "ViewChannel"
+          ],
+          "deny": [
+            "MentionEveryone"
+          ],
+          "allowBitfield": "412317248576",
+          "denyBitfield": "131072"
+        },
+        {
+          "id": "437808476106784770",
+          "targetType": "member",
+          "targetName": "Level Bot",
+          "allow": [],
+          "deny": [
+            "SendMessages"
+          ],
+          "allowBitfield": "0",
+          "denyBitfield": "2048"
+        },
+        {
+          "id": "1484645118697934952",
+          "targetType": "role",
+          "targetName": "Lingua Family",
+          "allow": [
+            "AddReactions",
+            "AttachFiles",
+            "BypassSlowmode",
+            "Connect",
+            "CreateEvents",
+            "CreateInstantInvite",
+            "CreatePrivateThreads",
+            "CreatePublicThreads",
+            "DeafenMembers",
+            "EmbedLinks",
+            "ManageChannels",
+            "ManageEvents",
+            "ManageMessages",
+            "ManageRoles",
+            "ManageThreads",
+            "ManageWebhooks",
+            "MentionEveryone",
+            "MoveMembers",
+            "MuteMembers",
+            "PinMessages",
+            "PrioritySpeaker",
+            "ReadMessageHistory",
+            "RequestToSpeak",
+            "SendMessages",
+            "SendMessagesInThreads",
+            "SendPolls",
+            "SendTTSMessages",
+            "SendVoiceMessages",
+            "Speak",
+            "Stream",
+            "UseApplicationCommands",
+            "UseEmbeddedActivities",
+            "UseExternalApps",
+            "UseExternalEmojis",
+            "UseExternalSounds",
+            "UseExternalStickers",
+            "UseSoundboard",
+            "UseVAD",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "8854365862887249",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "852906005640642570",
+          "targetType": "role",
+          "targetName": "Moderator",
+          "allow": [
+            "ReadMessageHistory",
+            "SendMessages",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "68608",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1505522302010527834",
+          "targetType": "role",
+          "targetName": "Polish",
+          "allow": [
+            "Connect",
+            "ReadMessageHistory",
+            "SendMessages",
+            "SendVoiceMessages",
+            "Speak",
+            "Stream",
+            "UseSoundboard",
+            "UseVAD",
+            "ViewChannel"
+          ],
+          "deny": [
+            "ManageChannels"
+          ],
+          "allowBitfield": "74766827458048",
+          "denyBitfield": "16"
+        },
+        {
+          "id": "1505521841878470716",
+          "targetType": "role",
+          "targetName": "Polish Native",
+          "allow": [
+            "Connect",
+            "ReadMessageHistory",
+            "SendMessages",
+            "SendVoiceMessages",
+            "Speak",
+            "Stream",
+            "UseSoundboard",
+            "UseVAD",
+            "ViewChannel"
+          ],
+          "deny": [
+            "ManageChannels"
+          ],
+          "allowBitfield": "74766827458048",
+          "denyBitfield": "16"
+        }
+      ]
+    },
+    {
+      "id": "1279389343542149141",
+      "name": "music-controller",
+      "type": "Text Channel",
+      "parentId": "793744179519160361",
+      "parentName": "vc",
+      "position": 38,
+      "permissionsSynced": false,
+      "overwrites": [
+        {
+          "id": "793744179066699787",
+          "targetType": "role",
+          "targetName": "@everyone",
+          "allow": [
+            "AddReactions",
+            "AttachFiles",
+            "CreateInstantInvite",
+            "ReadMessageHistory",
+            "SendMessages",
+            "SendMessagesInThreads",
+            "UseApplicationCommands",
+            "UseExternalEmojis",
+            "UseExternalStickers",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "414464707649",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1349511863070756896",
+          "targetType": "role",
+          "targetName": "FlaviBot",
+          "allow": [
+            "AddReactions",
+            "AttachFiles",
+            "ManageChannels",
+            "ManageMessages",
+            "ReadMessageHistory",
+            "SendMessages",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "109648",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1224754966363897916",
+          "targetType": "role",
+          "targetName": "Member",
+          "allow": [
+            "Connect",
+            "ReadMessageHistory",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "1115136",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "852906005640642570",
+          "targetType": "role",
+          "targetName": "Moderator",
+          "allow": [
+            "Connect",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "1049600",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1303817555768770610",
+          "targetType": "role",
+          "targetName": "Muted",
+          "allow": [],
+          "deny": [
+            "SendMessages"
+          ],
+          "allowBitfield": "0",
+          "denyBitfield": "2048"
+        }
+      ]
+    },
+    {
+      "id": "1280895890780979231",
+      "name": "artworks",
+      "type": "Text Channel",
+      "parentId": "1286636835002646629",
+      "parentName": "Topics",
+      "position": 39,
+      "permissionsSynced": false,
+      "overwrites": [
+        {
+          "id": "793744179066699787",
+          "targetType": "role",
+          "targetName": "@everyone",
+          "allow": [
+            "AddReactions",
+            "AttachFiles",
+            "CreateInstantInvite",
+            "ReadMessageHistory",
+            "SendMessages",
+            "SendMessagesInThreads",
+            "UseApplicationCommands",
+            "UseExternalEmojis",
+            "UseExternalStickers",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "414464707649",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1225361440869715979",
+          "targetType": "role",
+          "targetName": "French",
+          "allow": [
+            "AddReactions",
+            "AttachFiles",
+            "SendMessages",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "35904",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1225361583857860699",
+          "targetType": "role",
+          "targetName": "German",
+          "allow": [
+            "AddReactions",
+            "AttachFiles",
+            "SendMessages",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "35904",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1463237212383744032",
+          "targetType": "role",
+          "targetName": "Herr Lounge",
+          "allow": [
+            "AddReactions",
+            "AttachFiles",
+            "BypassSlowmode",
+            "CreateInstantInvite",
+            "CreatePrivateThreads",
+            "CreatePublicThreads",
+            "EmbedLinks",
+            "ManageChannels",
+            "ManageMessages",
+            "ManageRoles",
+            "ManageThreads",
+            "ManageWebhooks",
+            "MentionEveryone",
+            "PinMessages",
+            "ReadMessageHistory",
+            "SendMessages",
+            "SendMessagesInThreads",
+            "SendPolls",
+            "SendTTSMessages",
+            "SendVoiceMessages",
+            "UseApplicationCommands",
+            "UseEmbeddedActivities",
+            "UseExternalApps",
+            "UseExternalEmojis",
+            "UseExternalStickers",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "8515703330569297",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1506904387610742844",
+          "targetType": "role",
+          "targetName": "Intern Moderator",
+          "allow": [
+            "ManageMessages"
+          ],
+          "deny": [],
+          "allowBitfield": "8192",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1484645118697934952",
+          "targetType": "role",
+          "targetName": "Lingua Family",
+          "allow": [],
+          "deny": [],
+          "allowBitfield": "0",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1224754966363897916",
+          "targetType": "role",
+          "targetName": "Member",
+          "allow": [
+            "Connect",
+            "ReadMessageHistory",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "1115136",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "852906005640642570",
+          "targetType": "role",
+          "targetName": "Moderator",
+          "allow": [
+            "Connect",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "1049600",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1303817555768770610",
+          "targetType": "role",
+          "targetName": "Muted",
+          "allow": [],
+          "deny": [
+            "SendMessages"
+          ],
+          "allowBitfield": "0",
+          "denyBitfield": "2048"
+        }
+      ]
+    },
+    {
+      "id": "838440273712906240",
+      "name": "𝕤𝕠𝕔𝕣𝕒𝕥𝕦𝕤-𝕘𝕒𝕝𝕝𝕖𝕣𝕪",
+      "type": "Text Channel",
+      "parentId": "1286636835002646629",
+      "parentName": "Topics",
+      "position": 40,
+      "permissionsSynced": false,
+      "overwrites": [
+        {
+          "id": "793744179066699787",
+          "targetType": "role",
+          "targetName": "@everyone",
+          "allow": [],
+          "deny": [
+            "ViewChannel"
+          ],
+          "allowBitfield": "0",
+          "denyBitfield": "1024"
+        },
+        {
+          "id": "1506904387610742844",
+          "targetType": "role",
+          "targetName": "Intern Moderator",
+          "allow": [
+            "AddReactions",
+            "ReadMessageHistory",
+            "ViewChannel"
+          ],
+          "deny": [
+            "AttachFiles",
+            "BypassSlowmode",
+            "CreatePrivateThreads",
+            "CreatePublicThreads",
+            "EmbedLinks",
+            "ManageMessages",
+            "ManageThreads",
+            "MentionEveryone",
+            "PinMessages",
+            "SendMessages",
+            "SendMessagesInThreads",
+            "SendPolls",
+            "SendTTSMessages",
+            "SendVoiceMessages",
+            "UseApplicationCommands",
+            "UseEmbeddedActivities",
+            "UseExternalApps",
+            "UseExternalStickers"
+          ],
+          "allowBitfield": "66624",
+          "denyBitfield": "8515702524934144"
+        },
+        {
+          "id": "1224754966363897916",
+          "targetType": "role",
+          "targetName": "Member",
+          "allow": [
+            "AddReactions",
+            "ReadMessageHistory",
+            "UseExternalEmojis",
+            "UseExternalStickers",
+            "ViewChannel"
+          ],
+          "deny": [
+            "AttachFiles",
+            "CreateInstantInvite",
+            "CreatePrivateThreads",
+            "CreatePublicThreads",
+            "EmbedLinks",
+            "ManageChannels",
+            "ManageMessages",
+            "ManageThreads",
+            "ManageWebhooks",
+            "MentionEveryone",
+            "SendMessages",
+            "SendMessagesInThreads",
+            "SendPolls",
+            "SendTTSMessages",
+            "SendVoiceMessages",
+            "UseApplicationCommands",
+            "UseEmbeddedActivities"
+          ],
+          "allowBitfield": "137439282240",
+          "denyBitfield": "634266274953233"
+        },
+        {
+          "id": "852906005640642570",
+          "targetType": "role",
+          "targetName": "Moderator",
+          "allow": [
+            "AddReactions",
+            "AttachFiles",
+            "CreateInstantInvite",
+            "CreatePrivateThreads",
+            "CreatePublicThreads",
+            "EmbedLinks",
+            "ManageChannels",
+            "ManageMessages",
+            "ManageThreads",
+            "ManageWebhooks",
+            "MentionEveryone",
+            "ReadMessageHistory",
+            "SendMessages",
+            "SendMessagesInThreads",
+            "SendPolls",
+            "SendTTSMessages",
+            "SendVoiceMessages",
+            "UseApplicationCommands",
+            "UseEmbeddedActivities",
+            "UseExternalApps",
+            "UseExternalEmojis",
+            "UseExternalStickers",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "1760303621078097",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1303817555768770610",
+          "targetType": "role",
+          "targetName": "Muted",
+          "allow": [],
+          "deny": [
+            "SendMessages"
+          ],
+          "allowBitfield": "0",
+          "denyBitfield": "2048"
+        },
+        {
+          "id": "1280590687024189502",
+          "targetType": "role",
+          "targetName": "soCratus",
+          "allow": [
+            "AddReactions",
+            "AttachFiles",
+            "CreatePrivateThreads",
+            "CreatePublicThreads",
+            "EmbedLinks",
+            "MentionEveryone",
+            "ReadMessageHistory",
+            "SendMessages",
+            "SendMessagesInThreads",
+            "UseExternalApps",
+            "UseExternalEmojis",
+            "UseExternalStickers",
+            "ViewChannel"
+          ],
+          "deny": [
+            "CreateInstantInvite",
+            "ManageChannels",
+            "ManageMessages",
+            "ManageThreads",
+            "ManageWebhooks",
+            "SendPolls",
+            "SendTTSMessages",
+            "SendVoiceMessages",
+            "UseApplicationCommands",
+            "UseEmbeddedActivities"
+          ],
+          "allowBitfield": "1126415303429184",
+          "denyBitfield": "633888317648913"
+        },
+        {
+          "id": "542244996586143767",
+          "targetType": "member",
+          "targetName": "Socratus",
+          "allow": [
+            "AddReactions",
+            "AttachFiles",
+            "EmbedLinks",
+            "ManageChannels",
+            "ManageRoles",
+            "ManageWebhooks",
+            "SendMessages",
+            "ViewChannel"
+          ],
+          "deny": [
+            "CreateInstantInvite"
+          ],
+          "allowBitfield": "805358672",
+          "denyBitfield": "1"
+        }
+      ]
+    },
+    {
+      "id": "819315298946514975",
+      "name": "music",
+      "type": "Text Channel",
+      "parentId": "1286636835002646629",
+      "parentName": "Topics",
+      "position": 41,
+      "permissionsSynced": false,
+      "overwrites": [
+        {
+          "id": "793744179066699787",
+          "targetType": "role",
+          "targetName": "@everyone",
+          "allow": [],
+          "deny": [],
+          "allowBitfield": "0",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1506904387610742844",
+          "targetType": "role",
+          "targetName": "Intern Moderator",
+          "allow": [
+            "ManageMessages"
+          ],
+          "deny": [],
+          "allowBitfield": "8192",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1224754966363897916",
+          "targetType": "role",
+          "targetName": "Member",
+          "allow": [
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "1024",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1303817555768770610",
+          "targetType": "role",
+          "targetName": "Muted",
+          "allow": [],
+          "deny": [
+            "SendMessages"
+          ],
+          "allowBitfield": "0",
+          "denyBitfield": "2048"
+        }
+      ]
+    },
+    {
+      "id": "1326458294994210877",
+      "name": "partners",
+      "type": "Text Channel",
+      "parentId": "1286636835002646629",
+      "parentName": "Topics",
+      "position": 42,
+      "permissionsSynced": false,
+      "overwrites": [
+        {
+          "id": "793744179066699787",
+          "targetType": "role",
+          "targetName": "@everyone",
+          "allow": [
+            "AddReactions",
+            "AttachFiles",
+            "CreateInstantInvite",
+            "ReadMessageHistory",
+            "UseApplicationCommands",
+            "UseExternalEmojis",
+            "UseExternalStickers",
+            "ViewChannel"
+          ],
+          "deny": [
+            "CreatePrivateThreads",
+            "CreatePublicThreads",
+            "SendMessages",
+            "SendMessagesInThreads"
+          ],
+          "allowBitfield": "139586798657",
+          "denyBitfield": "377957124096"
+        },
+        {
+          "id": "1506904387610742844",
+          "targetType": "role",
+          "targetName": "Intern Moderator",
+          "allow": [
+            "AddReactions",
+            "ReadMessageHistory",
+            "ViewChannel"
+          ],
+          "deny": [
+            "AttachFiles",
+            "BypassSlowmode",
+            "CreateInstantInvite",
+            "CreatePrivateThreads",
+            "CreatePublicThreads",
+            "EmbedLinks",
+            "ManageChannels",
+            "ManageMessages",
+            "ManageRoles",
+            "ManageThreads",
+            "ManageWebhooks",
+            "MentionEveryone",
+            "PinMessages",
+            "SendMessages",
+            "SendMessagesInThreads",
+            "SendPolls",
+            "SendTTSMessages",
+            "SendVoiceMessages",
+            "UseApplicationCommands",
+            "UseEmbeddedActivities",
+            "UseExternalApps",
+            "UseExternalStickers"
+          ],
+          "allowBitfield": "66624",
+          "denyBitfield": "8515703330240529"
+        },
+        {
+          "id": "1224754966363897916",
+          "targetType": "role",
+          "targetName": "Member",
+          "allow": [
+            "Connect",
+            "ReadMessageHistory",
+            "ViewChannel"
+          ],
+          "deny": [
+            "CreatePrivateThreads",
+            "CreatePublicThreads",
+            "SendMessages",
+            "SendMessagesInThreads"
+          ],
+          "allowBitfield": "1115136",
+          "denyBitfield": "377957124096"
+        },
+        {
+          "id": "852906005640642570",
+          "targetType": "role",
+          "targetName": "Moderator",
+          "allow": [
+            "Connect",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "1049600",
+          "denyBitfield": "0"
+        }
+      ]
+    },
+    {
+      "id": "1471094451467452554",
+      "name": "ballsdex",
+      "type": "Text Channel",
+      "parentId": "1471094072038129767",
+      "parentName": "Fun",
+      "position": 43,
+      "permissionsSynced": false,
+      "overwrites": [
+        {
+          "id": "793744179066699787",
+          "targetType": "role",
+          "targetName": "@everyone",
+          "allow": [
+            "UseApplicationCommands"
+          ],
+          "deny": [],
+          "allowBitfield": "2147483648",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1463237212383744032",
+          "targetType": "role",
+          "targetName": "Herr Lounge",
+          "allow": [
+            "AddReactions",
+            "AttachFiles",
+            "BypassSlowmode",
+            "Connect",
+            "CreateEvents",
+            "CreateInstantInvite",
+            "CreatePrivateThreads",
+            "CreatePublicThreads",
+            "DeafenMembers",
+            "EmbedLinks",
+            "ManageChannels",
+            "ManageEvents",
+            "ManageMessages",
+            "ManageRoles",
+            "ManageThreads",
+            "ManageWebhooks",
+            "MentionEveryone",
+            "MoveMembers",
+            "MuteMembers",
+            "PinMessages",
+            "PrioritySpeaker",
+            "ReadMessageHistory",
+            "RequestToSpeak",
+            "SendMessages",
+            "SendMessagesInThreads",
+            "SendPolls",
+            "SendTTSMessages",
+            "SendVoiceMessages",
+            "Speak",
+            "Stream",
+            "UseApplicationCommands",
+            "UseEmbeddedActivities",
+            "UseExternalApps",
+            "UseExternalEmojis",
+            "UseExternalSounds",
+            "UseExternalStickers",
+            "UseSoundboard",
+            "UseVAD",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "8854365862887249",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1506904387610742844",
+          "targetType": "role",
+          "targetName": "Intern Moderator",
+          "allow": [
+            "ManageMessages",
+            "ReadMessageHistory",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "74752",
+          "denyBitfield": "0"
+        }
+      ]
+    },
+    {
+      "id": "1471105315968651454",
+      "name": "dank-memer",
+      "type": "Text Channel",
+      "parentId": "1471094072038129767",
+      "parentName": "Fun",
+      "position": 44,
+      "permissionsSynced": true,
+      "overwrites": [
+        {
+          "id": "1463237212383744032",
+          "targetType": "role",
+          "targetName": "Herr Lounge",
+          "allow": [
+            "AddReactions",
+            "AttachFiles",
+            "BypassSlowmode",
+            "Connect",
+            "CreateEvents",
+            "CreateInstantInvite",
+            "CreatePrivateThreads",
+            "CreatePublicThreads",
+            "DeafenMembers",
+            "EmbedLinks",
+            "ManageChannels",
+            "ManageEvents",
+            "ManageMessages",
+            "ManageRoles",
+            "ManageThreads",
+            "ManageWebhooks",
+            "MentionEveryone",
+            "MoveMembers",
+            "MuteMembers",
+            "PinMessages",
+            "PrioritySpeaker",
+            "ReadMessageHistory",
+            "RequestToSpeak",
+            "SendMessages",
+            "SendMessagesInThreads",
+            "SendPolls",
+            "SendTTSMessages",
+            "SendVoiceMessages",
+            "Speak",
+            "Stream",
+            "UseApplicationCommands",
+            "UseEmbeddedActivities",
+            "UseExternalApps",
+            "UseExternalEmojis",
+            "UseExternalSounds",
+            "UseExternalStickers",
+            "UseSoundboard",
+            "UseVAD",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "8854365862887249",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1506904387610742844",
+          "targetType": "role",
+          "targetName": "Intern Moderator",
+          "allow": [
+            "ManageMessages",
+            "ReadMessageHistory",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "74752",
+          "denyBitfield": "0"
+        }
+      ]
+    },
+    {
+      "id": "1471102682281414736",
+      "name": "truth-or-dare",
+      "type": "Text Channel",
+      "parentId": "1471094072038129767",
+      "parentName": "Fun",
+      "position": 45,
+      "permissionsSynced": true,
+      "overwrites": [
+        {
+          "id": "1463237212383744032",
+          "targetType": "role",
+          "targetName": "Herr Lounge",
+          "allow": [
+            "AddReactions",
+            "AttachFiles",
+            "BypassSlowmode",
+            "Connect",
+            "CreateEvents",
+            "CreateInstantInvite",
+            "CreatePrivateThreads",
+            "CreatePublicThreads",
+            "DeafenMembers",
+            "EmbedLinks",
+            "ManageChannels",
+            "ManageEvents",
+            "ManageMessages",
+            "ManageRoles",
+            "ManageThreads",
+            "ManageWebhooks",
+            "MentionEveryone",
+            "MoveMembers",
+            "MuteMembers",
+            "PinMessages",
+            "PrioritySpeaker",
+            "ReadMessageHistory",
+            "RequestToSpeak",
+            "SendMessages",
+            "SendMessagesInThreads",
+            "SendPolls",
+            "SendTTSMessages",
+            "SendVoiceMessages",
+            "Speak",
+            "Stream",
+            "UseApplicationCommands",
+            "UseEmbeddedActivities",
+            "UseExternalApps",
+            "UseExternalEmojis",
+            "UseExternalSounds",
+            "UseExternalStickers",
+            "UseSoundboard",
+            "UseVAD",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "8854365862887249",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1506904387610742844",
+          "targetType": "role",
+          "targetName": "Intern Moderator",
+          "allow": [
+            "ManageMessages",
+            "ReadMessageHistory",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "74752",
+          "denyBitfield": "0"
+        }
+      ]
+    },
+    {
+      "id": "1471105358360740077",
+      "name": "tatsu",
+      "type": "Text Channel",
+      "parentId": "1471094072038129767",
+      "parentName": "Fun",
+      "position": 46,
+      "permissionsSynced": true,
+      "overwrites": [
+        {
+          "id": "1463237212383744032",
+          "targetType": "role",
+          "targetName": "Herr Lounge",
+          "allow": [
+            "AddReactions",
+            "AttachFiles",
+            "BypassSlowmode",
+            "Connect",
+            "CreateEvents",
+            "CreateInstantInvite",
+            "CreatePrivateThreads",
+            "CreatePublicThreads",
+            "DeafenMembers",
+            "EmbedLinks",
+            "ManageChannels",
+            "ManageEvents",
+            "ManageMessages",
+            "ManageRoles",
+            "ManageThreads",
+            "ManageWebhooks",
+            "MentionEveryone",
+            "MoveMembers",
+            "MuteMembers",
+            "PinMessages",
+            "PrioritySpeaker",
+            "ReadMessageHistory",
+            "RequestToSpeak",
+            "SendMessages",
+            "SendMessagesInThreads",
+            "SendPolls",
+            "SendTTSMessages",
+            "SendVoiceMessages",
+            "Speak",
+            "Stream",
+            "UseApplicationCommands",
+            "UseEmbeddedActivities",
+            "UseExternalApps",
+            "UseExternalEmojis",
+            "UseExternalSounds",
+            "UseExternalStickers",
+            "UseSoundboard",
+            "UseVAD",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "8854365862887249",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1506904387610742844",
+          "targetType": "role",
+          "targetName": "Intern Moderator",
+          "allow": [
+            "ManageMessages",
+            "ReadMessageHistory",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "74752",
+          "denyBitfield": "0"
+        }
+      ]
+    },
+    {
+      "id": "1471111016619315443",
+      "name": "baum-lingua",
+      "type": "Text Channel",
+      "parentId": "1471094072038129767",
+      "parentName": "Fun",
+      "position": 47,
+      "permissionsSynced": true,
+      "overwrites": [
+        {
+          "id": "1463237212383744032",
+          "targetType": "role",
+          "targetName": "Herr Lounge",
+          "allow": [
+            "AddReactions",
+            "AttachFiles",
+            "BypassSlowmode",
+            "Connect",
+            "CreateEvents",
+            "CreateInstantInvite",
+            "CreatePrivateThreads",
+            "CreatePublicThreads",
+            "DeafenMembers",
+            "EmbedLinks",
+            "ManageChannels",
+            "ManageEvents",
+            "ManageMessages",
+            "ManageRoles",
+            "ManageThreads",
+            "ManageWebhooks",
+            "MentionEveryone",
+            "MoveMembers",
+            "MuteMembers",
+            "PinMessages",
+            "PrioritySpeaker",
+            "ReadMessageHistory",
+            "RequestToSpeak",
+            "SendMessages",
+            "SendMessagesInThreads",
+            "SendPolls",
+            "SendTTSMessages",
+            "SendVoiceMessages",
+            "Speak",
+            "Stream",
+            "UseApplicationCommands",
+            "UseEmbeddedActivities",
+            "UseExternalApps",
+            "UseExternalEmojis",
+            "UseExternalSounds",
+            "UseExternalStickers",
+            "UseSoundboard",
+            "UseVAD",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "8854365862887249",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1506904387610742844",
+          "targetType": "role",
+          "targetName": "Intern Moderator",
+          "allow": [
+            "ManageMessages",
+            "ReadMessageHistory",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "74752",
+          "denyBitfield": "0"
+        }
+      ]
+    },
+    {
+      "id": "1471425378693419038",
+      "name": "mafia-time",
+      "type": "Text Channel",
+      "parentId": "1471094072038129767",
+      "parentName": "Fun",
+      "position": 48,
+      "permissionsSynced": true,
+      "overwrites": [
+        {
+          "id": "1463237212383744032",
+          "targetType": "role",
+          "targetName": "Herr Lounge",
+          "allow": [
+            "AddReactions",
+            "AttachFiles",
+            "BypassSlowmode",
+            "Connect",
+            "CreateEvents",
+            "CreateInstantInvite",
+            "CreatePrivateThreads",
+            "CreatePublicThreads",
+            "DeafenMembers",
+            "EmbedLinks",
+            "ManageChannels",
+            "ManageEvents",
+            "ManageMessages",
+            "ManageRoles",
+            "ManageThreads",
+            "ManageWebhooks",
+            "MentionEveryone",
+            "MoveMembers",
+            "MuteMembers",
+            "PinMessages",
+            "PrioritySpeaker",
+            "ReadMessageHistory",
+            "RequestToSpeak",
+            "SendMessages",
+            "SendMessagesInThreads",
+            "SendPolls",
+            "SendTTSMessages",
+            "SendVoiceMessages",
+            "Speak",
+            "Stream",
+            "UseApplicationCommands",
+            "UseEmbeddedActivities",
+            "UseExternalApps",
+            "UseExternalEmojis",
+            "UseExternalSounds",
+            "UseExternalStickers",
+            "UseSoundboard",
+            "UseVAD",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "8854365862887249",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1506904387610742844",
+          "targetType": "role",
+          "targetName": "Intern Moderator",
+          "allow": [
+            "ManageMessages",
+            "ReadMessageHistory",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "74752",
+          "denyBitfield": "0"
+        }
+      ]
+    },
+    {
+      "id": "1454548779020845248",
+      "name": "🫂-life-advice",
+      "type": "Text Channel",
+      "parentId": "1454549317686919178",
+      "parentName": "vents",
+      "position": 49,
+      "permissionsSynced": false,
+      "overwrites": [
+        {
+          "id": "793744179066699787",
+          "targetType": "role",
+          "targetName": "@everyone",
+          "allow": [
+            "AddReactions",
+            "AttachFiles",
+            "CreateInstantInvite",
+            "ReadMessageHistory",
+            "UseApplicationCommands",
+            "UseExternalEmojis",
+            "UseExternalStickers",
+            "ViewChannel"
+          ],
+          "deny": [
+            "SendMessages"
+          ],
+          "allowBitfield": "139586798657",
+          "denyBitfield": "2048"
+        },
+        {
+          "id": "1328685509555392603",
+          "targetType": "role",
+          "targetName": "Frau Lingua",
+          "allow": [
+            "AddReactions",
+            "AttachFiles",
+            "CreateEvents",
+            "EmbedLinks",
+            "ManageChannels",
+            "ManageEvents",
+            "ManageMessages",
+            "ManageRoles",
+            "ManageThreads",
+            "ReadMessageHistory",
+            "SendMessages",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "17618224409680",
+          "denyBitfield": "0"
+        },
+        {
+          "id": "1224754966363897916",
+          "targetType": "role",
+          "targetName": "Member",
+          "allow": [
+            "Connect",
+            "ReadMessageHistory",
+            "ViewChannel"
+          ],
+          "deny": [
+            "SendMessages"
+          ],
+          "allowBitfield": "1115136",
+          "denyBitfield": "2048"
+        },
+        {
+          "id": "852906005640642570",
+          "targetType": "role",
+          "targetName": "Moderator",
+          "allow": [
+            "Connect",
+            "ViewChannel"
+          ],
+          "deny": [],
+          "allowBitfield": "1049600",
+          "denyBitfield": "0"
+        }
+      ]
+    }
+  ]
+}
